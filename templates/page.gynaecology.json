@@ -1,0 +1,99 @@
+{
+  "sections": {
+    "fed69c7f-9863-4443-8814-11d65d5ec0e3": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14795248304209__fed69c7f-9863-4443-8814-11d65d5ec0e3-16736139894e90341b-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Gynaecology_Web_Banner.jpg",
+            "heading": "",
+            "subheading": "",
+            "content": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "accent2",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14795248304209__fed69c7f-9863-4443-8814-11d65d5ec0e3-16736139894e90341b-0"
+      ],
+      "settings": {
+        "desktop_height": "desktop-height-image",
+        "mobile_height": "mobile-height-image",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "content_size": "medium",
+        "full_width": true,
+        "fade": true,
+        "autoplay": false,
+        "autoplay_length": 5,
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "template-header": {
+      "type": "template-header",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "overlay_opacity": 0,
+        "display_description": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "b3dda913-1781-44c0-ae3d-a6f748a55619": {
+      "type": "rich-text",
+      "blocks": {
+        "text_zKPGQh": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>The Ultrasound in Gynaecology programme for 2025 is currently being created. In the meantime, you can view the 2024 programme below<\/strong><\/p>",
+            "size": "text-size-regular"
+          }
+        },
+        "template--14795248304209__b3dda913-1781-44c0-ae3d-a6f748a55619-1673534359d8f3baf4-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Friday 22nd March 2024, The QEII Conference Centre, Westminster, London.<br\/>Chaired by Professor Tom Bourne, Professor of Obstetrics & Gynaecology, Imperial College London.<\/p><p>-<\/p><p><strong>Programme<\/strong><\/p><p>Friday 22nd March 2024: <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0567\/9461\/1793\/files\/EIOG_2024_2_Ultrasound_in_Gynaecology_20.03.2024.pdf?v=1710967898\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0567\/9461\/1793\/files\/EIOG_2024_2_Ultrasound_in_Gynaecology_20.03.2024.pdf?v=1710967898\">Download Programme Here<\/a><\/p><p><em>*All programmes are subject to change, a final programme with be available shortly<\/em><\/p>",
+            "size": "text-size-regular"
+          }
+        },
+        "button_WjDYUe": {
+          "type": "button",
+          "settings": {
+            "link_label": "Registration Fees",
+            "link": "shopify:\/\/pages\/event-pricing",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "text_zKPGQh",
+        "template--14795248304209__b3dda913-1781-44c0-ae3d-a6f748a55619-1673534359d8f3baf4-2",
+        "button_WjDYUe"
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "fed69c7f-9863-4443-8814-11d65d5ec0e3",
+    "template-header",
+    "main",
+    "b3dda913-1781-44c0-ae3d-a6f748a55619"
+  ]
+}

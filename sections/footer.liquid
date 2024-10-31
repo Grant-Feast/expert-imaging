@@ -1,0 +1,306 @@
+<link
+  rel="stylesheet"
+  href="{{ 'footer.css' | asset_url }}"
+  media="print"
+  onload="this.media='all'">
+<noscript>{{ 'footer.css' | asset_url | stylesheet_tag }}</noscript>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b1b83d9395.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <footer>
+      <div class="container">
+        <section class="column-1">
+          <img
+            class="footer-logo"
+            src="https://cdn.shopify.com/s/files/1/0567/9461/1793/files/GRT_logo_Stamp_orange.png?v=1676297556"
+            alt="Genesis Research Trust">
+          <div>
+            <div class="socials">
+              <a
+                class="social-link"
+                href="https://www.facebook.com/ExpertImagingObsGynae"
+                target="_blank">
+                <i class="fa-brands fa-facebook-f fa-xl"></i>
+              </a>
+              <a
+                class="social-link"
+                href="https://www.linkedin.com/showcase/expert-imaging-in-obstetrics-gynaecology/"
+                target="_blank">
+                <i class="fa-brands fa-linkedin-in fa-xl"></i>
+              </a>
+              <a
+                class="social-link"
+                href="https://twitter.com/Expert_Imaging"
+                target="_blank">
+                <i class="fa-brands fa-twitter fa-xl"></i>
+              </a>
+              <a
+                class="social-link"
+                href="https://www.instagram.com/expert_imaging_obs_gynae/"
+                target="_blank">
+                <i class="fa-brands fa-instagram fa-xl"></i>
+              </a>
+            </div>
+          </div>
+        </section>
+        <section class="column-2">
+          <ul class="footer-menu">
+            <li>
+              <a href="https://expertimaging.org/">Home</a>
+            </li>
+            <li>
+              <a href="https://expertimaging.org/pages/events-programme">Programme</a>
+            </li>
+            <li>
+              <a href="https://expertimaging.org/pages/chairs">Speakers</a>
+            </li>
+            <li>
+              <a href="https://expertimaging.org/pages/venue">Venue</a>
+            </li>
+            <li>
+              <a href="https://expertimaging.org/pages/event-pricing">Registration Fees</a>
+            </li>
+            <li>
+              <a href="https://expertimaging.org/pages/fetal-medicine">Ultrasound in Fetal Medicine</a>
+            </li>
+            <li>
+              <a href="https://expertimaging.org/pages/early-pregnancy-care">Ultrasound in Early Pregnancy Care</a>
+            </li>
+            <li>
+              <a href="https://expertimaging.org/pages/gynaecology">Ultrasound in Gynaecology</a>
+            </li>
+            <li>
+              <a href="https://expertimaging.org/pages/trainee-course">Trainee Course</a>
+            </li>
+          </ul>
+        </section>
+        <section class="column-3">
+          <address class="registered-address">
+            <p>Genesis Research Trust,</p>
+            <p>The Wolfson and Weston Research Centre for Family Health,</p>
+            <p>Imperial College London – Hammersmith Campus,</p>
+            <p>Du Cane Road,</p>
+            <p>London W12 0NN</p>
+          </address>
+        </section>
+        <section class="column-4">
+          <div class="reg-number">
+            <p>Charity registration number: 1179130</p>
+          </div>
+        </section>
+        <section class="column-5">
+          <address class="contact">
+            <h4>Contact Us</h4>
+            <p>Tel +44 (0)20 7594 2150</p>
+            <a href="mailto:sympreg@imperial.ac.uk">sympreg@imperial.ac.uk</a>
+          </address>
+        </section>
+      </div>
+      <aside class="copy">
+        <p>&copy 2023
+          <a href="https://www.symposia.org.uk/" target="_blank">Genesis Research Trust</a>. All rights reserved. Powered by
+          <a href="https://www.shopify.com/?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore" target="_blank">Shopify</a>
+        </p>
+        <div class="terms-container">
+          <a class="privacy-policy" href="https://expertimaging.org/pages/privacy-policy">Privacy Policy</a>
+          <a class="terms" href="https://expertimaging.org/pages/terms-and-conditions">Terms & Conditions</a>
+        </div>
+      </aside>
+    </footer>
+  </body>
+</html>
+
+{% schema %}
+  {
+    "name": "Footer",
+    "settings": [
+      {
+        "type": "text",
+        "id": "copyright_text",
+        "label": "Additional copyright text",
+        "default": "All rights reserved."
+      }, {
+        "type": "checkbox",
+        "id": "show_language_switcher",
+        "label": "Enable language switcher",
+        "default": true,
+        "info": "To add a language, go to your [language settings](/admin/settings/languages)."
+      }, {
+        "type": "checkbox",
+        "id": "show_currency_switcher",
+        "label": "Enable currency switcher",
+        "default": true,
+        "info": "To add a country/region, go to your [payment settings](/admin/settings/payments)."
+      }, {
+        "type": "checkbox",
+        "id": "show_payment_icons",
+        "label": "Show payment icons",
+        "default": true,
+        "info": "By default your theme shows the icons that are associated with the payment gateway you have enabled in the [payment settings](/admin/settings/payments)."
+      }
+    ],
+    "blocks": [
+      {
+        "type": "@app"
+      },
+      {
+        "type": "text",
+        "name": "Text",
+        "settings": [
+          {
+            "type": "select",
+            "id": "column_size",
+            "label": "Column size",
+            "options": [
+              {
+                "value": "small",
+                "label": "Small"
+              }, {
+                "value": "medium",
+                "label": "Medium"
+              }, {
+                "value": "large",
+                "label": "Large"
+              }
+            ],
+            "default": "small"
+          },
+          {
+            "id": "title",
+            "type": "text",
+            "label": "Title"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image",
+            "info": "240 x 100 px .png recommended."
+          },
+          {
+            "type": "checkbox",
+            "id": "retina",
+            "label": "Enable retina",
+            "default": true,
+            "info": "Image will be displayed at half the size, making it look crisp on retina screens."
+          }, {
+            "type": "richtext",
+            "id": "text",
+            "label": "Text",
+            "default": "<p>Add company info here.</p>"
+          }, {
+            "id": "button_text",
+            "type": "text",
+            "label": "Button label",
+            "default": "Explore",
+            "info": "Leave the label blank to hide the button."
+          }, {
+            "id": "button_link",
+            "type": "url",
+            "label": "Button link"
+          }
+        ]
+      },
+      {
+        "type": "menu",
+        "name": "Menu",
+        "settings": [
+          {
+            "type": "select",
+            "id": "column_size",
+            "label": "Column size",
+            "options": [
+              {
+                "value": "small",
+                "label": "Small"
+              }, {
+                "value": "medium",
+                "label": "Medium"
+              }, {
+                "value": "large",
+                "label": "Large"
+              }
+            ],
+            "default": "small"
+          }, {
+            "id": "title",
+            "type": "text",
+            "label": "Title"
+          }, {
+            "type": "link_list",
+            "id": "menu",
+            "default": "footer",
+            "label": "Menu",
+            "info": "Select navigation to display"
+          }
+        ]
+      },
+      {
+        "type": "social",
+        "name": "Social links",
+        "settings": [
+          {
+            "type": "select",
+            "id": "column_size",
+            "label": "Column size",
+            "options": [
+              {
+                "value": "small",
+                "label": "Small"
+              }, {
+                "value": "medium",
+                "label": "Medium"
+              }, {
+                "value": "large",
+                "label": "Large"
+              }
+            ],
+            "default": "small"
+          }, {
+            "id": "title",
+            "type": "text",
+            "label": "Title"
+          }
+        ]
+      }, {
+        "type": "signup",
+        "name": "Email signup",
+        "settings": [
+          {
+            "type": "select",
+            "id": "column_size",
+            "label": "Column size",
+            "options": [
+              {
+                "value": "small",
+                "label": "Small"
+              }, {
+                "value": "medium",
+                "label": "Medium"
+              }, {
+                "value": "large",
+                "label": "Large"
+              }
+            ],
+            "default": "small"
+          }, {
+            "id": "title",
+            "type": "text",
+            "label": "Title"
+          }, {
+            "type": "richtext",
+            "id": "text",
+            "label": "Text",
+            "default": "<p>Add a text to attract more customers to <strong>sign up!</strong></p>"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

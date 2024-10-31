@@ -1,0 +1,20 @@
+.chairs-inner .image-with-text {
+  background-color: #ededde0f;
+}
+.chairs-text {
+  background-color: #ffffff0f !important;
+  padding: 0px !important;
+}
+
+@media only screen and (min-width: 768px) {
+  .chairs {
+    padding: 0 80px !important;
+  }
+}
+
+@media only screen and (min-width: 1068px) {
+  .chairs {
+    padding: 0 150px !important;
+  }
+  
+}

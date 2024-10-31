@@ -1,0 +1,118 @@
+{
+  "sections": {
+    "template-header": {
+      "type": "template-header",
+      "custom_css": [
+        "h1,p {background-color: #1855816e; padding: 5px;}",
+        "h1 {margin-bottom: 0px !important;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "overlay_opacity": 10,
+        "display_description": true,
+        "bg_image": "shopify:\/\/shop_images\/EIOG_Blue_waves_2500x500px.jpg"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "a49b25d4-51b1-44ad-8dfd-bcc2960fde3d": {
+      "type": "rich-text",
+      "blocks": {
+        "text_AmJhXC": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>The Introduction to Gynaecological & Obstretric Ultrasound for Trainees programmes for 2025 are currently being created. In the meantime, you can view the 2024 programme below<\/strong><\/p>",
+            "size": "text-size-regular"
+          }
+        },
+        "template--14900812677201__a49b25d4-51b1-44ad-8dfd-bcc2960fde3d-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Health Education England (HEE) has approved the EIOG trainee programme as ‘optional, recommended’. Trainees can therefore claim the full registration fee back from their Trust using the following HEE code: <strong>OBSG0003<\/strong>. The process is as follows:<\/p>",
+            "size": "text-size-regular"
+          }
+        },
+        "04e0a272-a5e3-4b44-98d2-d92adcbd58a4": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<ul><li>Book a place now via the register button and pay upfront<\/li><li>GRT will issue a payment receipt with your booking confirmation<\/li><li>GRT will issue a certificate of attendance one week following the meeting<\/li><li>Submit a registration fee expenses claim to your Trust quoting HEE reference OBSG0003, attaching your payment receipt and certificate of attendance<\/li><li>Your trust will reimburse your registration fee<\/li><\/ul>",
+            "size": "text-size-regular"
+          }
+        },
+        "62e61aaa-c22d-440d-b722-3631f0fc3455": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Book now to take advantage of the Early Bird registration fee and secure your study leave.<\/p>",
+            "size": "text-size-regular"
+          }
+        },
+        "e351ca0f-a12c-43e3-827e-9adac7603557": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The EIOG trainee course is a bold new innovation. Offering trainees the opportunity to hear from expert UK and European speakers in early pregnancy, gynaecological and obstetric ultrasound with keynote lectures, case studies, interactive sessions and round tables. Trainees will get a grounding in the basics of contemporary ultrasonography, how to manage what they find on scan, and controversies in a unique format with clear learning objectives, pre and post course materials.<\/p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "text_AmJhXC",
+        "template--14900812677201__a49b25d4-51b1-44ad-8dfd-bcc2960fde3d-text-1",
+        "04e0a272-a5e3-4b44-98d2-d92adcbd58a4",
+        "62e61aaa-c22d-440d-b722-3631f0fc3455",
+        "e351ca0f-a12c-43e3-827e-9adac7603557"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "left",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "423f8dfb-1feb-4809-acfc-527561a20ee9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14875023409233__423f8dfb-1feb-4809-acfc-527561a20ee9-168867490685038803-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Thursday 21st & Friday 22nd March 2024, QEII Conference Centre, Westminster, London.  Chaired byProfessor Tom Bourne, Professor of Obstetrics & Gynaecology, Imperial College London & Professor Christoph Lees, Professor of Obstetrics, Imperial College London.<\/p><p>-<\/p><p><strong>Programmes<\/strong><\/p><p>Thursday 21st March 2024: <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0567\/9461\/1793\/files\/EIOG_2024_4_Intro_to_Ultrasound_in_Gynaecology_-TRAINEES_20.03.2024.pdf?v=1710968204\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0567\/9461\/1793\/files\/EIOG_2024_4_Intro_to_Ultrasound_in_Gynaecology_-TRAINEES_20.03.2024.pdf?v=1710968204\">Download Programme Here<\/a><\/p><p>Friday 22nd March 2024: <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0567\/9461\/1793\/files\/EIOG_2024_5_Intro_to_Ultrasound_in_Obstetrics_-TRAINEES_14.03.24.pdf?v=1710968351\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0567\/9461\/1793\/files\/EIOG_2024_5_Intro_to_Ultrasound_in_Obstetrics_-TRAINEES_14.03.24.pdf?v=1710968351\">Download Programme Here<\/a><\/p><p>*<em><strong>All programmes are subject to change, a final programme with be available shortly<\/strong><\/em><\/p>",
+            "size": "text-size-regular"
+          }
+        },
+        "button_VyEWyU": {
+          "type": "button",
+          "settings": {
+            "link_label": "Registration Fees",
+            "link": "shopify:\/\/pages\/event-pricing",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14875023409233__423f8dfb-1feb-4809-acfc-527561a20ee9-168867490685038803-2",
+        "button_VyEWyU"
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "template-header",
+    "main",
+    "a49b25d4-51b1-44ad-8dfd-bcc2960fde3d",
+    "423f8dfb-1feb-4809-acfc-527561a20ee9"
+  ]
+}

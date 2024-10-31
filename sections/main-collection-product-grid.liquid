@@ -1,0 +1,84 @@
+{{ 'product-grid.css' | asset_url | stylesheet_tag }}
+{%- liquid
+	assign enable_filtering = section.settings.enable_filtering
+	assign enable_sorting = section.settings.enable_sorting
+	assign products_per_page = section.settings.products_per_page
+	assign columns_desktop = section.settings.columns_desktop
+-%}
+{%- paginate collection.products by products_per_page -%}
+	<div class="collection-container section-spacing-bottom">
+		{% render 'facets', results: collection, enable_filtering: enable_filtering, enable_sorting: enable_sorting %}
+		{{ 'facets.css' | asset_url | stylesheet_tag }}
+		{{ 'nouislider.js' | asset_url | script_tag }}
+		<script src="{{ 'facets.min.js' | asset_url }}" defer="defer"></script>
+		<div id="ProductGridContainer">
+			{%- if collection.products.size == 0 -%}
+				<div class="row">
+					<div class="small-12 columns">
+						<div class="collection-empty">
+							{% render 'svg-icons' with 'thb-no-products' %}
+	            <p>
+	              {{ 'sections.collection_template.empty' | t }}<br>
+								{%- if collection.terms -%}
+	              {{ 'sections.collection_template.use_fewer_filters_html' | t: link: collection.url }}
+								{%- endif -%}
+	            </p>
+						</div>
+					</div>
+				</div>
+			{%- else -%}
+				<ul id="product-grid" data-id="{{ section.id }}" class="products collection row small-up-2 medium-up-{{ columns_desktop }}">
+					{%- for product in collection.products -%}
+						<li class="column">
+							{% render 'product-card', product_card_product: product %}
+						</li>
+					{%- endfor -%}
+				</ul>
+				{% render 'pagination', paginate: paginate %}
+			{%- endif -%}
+		</div>
+	</div>
+{%- endpaginate -%}
+
+{% schema %}
+  {
+    "name": "Product grid",
+    "settings": [
+			{
+        "type": "range",
+        "id": "products_per_page",
+        "min": 2,
+        "max": 24,
+        "step": 1,
+        "label": "Number of products",
+        "default": 12
+      },
+			{
+        "type": "range",
+        "id": "columns_desktop",
+        "min": 2,
+        "max": 5,
+        "step": 1,
+        "label": "Number of columns on desktop",
+        "default": 4
+      },
+	    {
+	      "type": "header",
+	      "content": "Filtering and sorting"
+	    },
+	    {
+	      "type": "checkbox",
+	      "id": "enable_filtering",
+	      "default": true,
+	      "label": "Enable filtering",
+	      "info": "Customize [filters](/admin/menus)"
+	    },
+	    {
+	      "type": "checkbox",
+	      "id": "enable_sorting",
+	      "default": true,
+	      "label": "Enable sorting"
+	    }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,267 @@
+{{ 'image-with-text.css' | asset_url | stylesheet_tag }}
+{{ 'chairs-img-with-text.css' | asset_url | stylesheet_tag }}
+{% liquid
+  assign image = section.settings.image
+  assign height = section.settings.height
+  assign content_position = section.settings.content_position
+  assign desktop_image_width = section.settings.desktop_image_width
+  assign desktop_layout = section.settings.layout
+  assign disable_top_spacing = section.settings.disable_top_spacing
+  assign disable_bottom_spacing = section.settings.disable_bottom_spacing
+
+  assign ratio = 1
+  if height == 'adapt' and image != blank
+    assign ratio = image.aspect_ratio
+  endif
+%}
+<div class="chairs">
+  <div class="small-12 chairs-inner">
+    <div class="image-with-text grid--image-{{ desktop_image_width }} {{ desktop_layout }} {{ content_position }} section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
+      <div class="image-with-text__image image-with-text__inner">
+        <div
+          class="image-with-text__image-media aspect-ratio aspect-ratio--{{ height }}"
+          style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
+        >
+          {% if image %}
+            {% assign small_width = image.src.height | times: '320' | divided_by: image.src.width %}
+            {% assign master_width = image.src.height | append: 'x' | append: image.src.width %}
+            {% assign width = '640x' | append: small_width | append: ',' | append: master_width %}
+            {%- render 'responsive-image', class: 'product-secondary-image', image: image, sizes: width -%}
+          {% else %}
+            {{ 'image' | placeholder_svg_tag: 'placeholder_svg_tag' }}
+          {% endif %}
+        </div>
+      </div>
+      <div class="image-with-text__content image-with-text__inner content-container">
+        {% for block in section.blocks %}
+          {%- case block.type -%}
+            {%- when 'subheading' -%}
+              <p class="subheading" {{ block.shopify_attributes }}>{{ block.settings.text }}</p>
+            {%- when 'heading' -%}
+              <h3 class="content-chair-header {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+                {{ block.settings.text | newline_to_br }}
+              </h3>
+            {%- when 'text' -%}
+              <div class="rte chairs-text" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
+            {%- when 'button' -%}
+              {% if block.settings.button_text != blank %}
+                <a
+                  class="text-button"
+                  href="{{ block.settings.button_link }}"
+                  role="button"
+                  title="{{ block.settings.button_text | escape }}"
+                  {{ block.shopify_attributes }}
+                >
+                  {{- block.settings.button_text -}}
+                </a>
+              {% endif %}
+          {%- endcase -%}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Chairs Image with text",
+  "class": "section-chairs-img-with-text",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "select",
+      "id": "height",
+      "options": [
+        {
+          "value": "adapt",
+          "label": "Adapt to image"
+        },
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        }
+      ],
+      "default": "adapt",
+      "label": "Image height"
+    },
+    {
+      "type": "select",
+      "id": "desktop_image_width",
+      "options": [
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "medium",
+          "label": "Medium"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        }
+      ],
+      "default": "medium",
+      "label": "Desktop image width",
+      "info": "Image is automatically optimized for mobile."
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "options": [
+        {
+          "value": "image_first",
+          "label": "Image first"
+        },
+        {
+          "value": "text_first",
+          "label": "Image second"
+        }
+      ],
+      "default": "image_first",
+      "label": "Desktop image placement",
+      "info": "Image first is the default mobile layout."
+    },
+    {
+      "type": "select",
+      "id": "content_position",
+      "label": "Desktop content alignment",
+      "options": [
+        {
+          "value": "text-center",
+          "label": "Center"
+        },
+        {
+          "value": "text-left",
+          "label": "Left"
+        },
+        {
+          "value": "text-right",
+          "label": "Right"
+        }
+      ],
+      "default": "text-left"
+    },
+    {
+      "type": "header",
+      "content": "Spacing"
+    },
+    {
+      "type": "checkbox",
+      "id": "disable_top_spacing",
+      "default": false,
+      "label": "Remove top spacing"
+    },
+    {
+      "type": "checkbox",
+      "id": "disable_bottom_spacing",
+      "default": false,
+      "label": "Remove bottom spacing"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "subheading",
+      "name": "Subheading",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text",
+          "default": "Add a tagline"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "name": "Heading",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text",
+          "default": "Image with text"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "label": "Size",
+          "options": [
+            {
+              "value": "h1",
+              "label": "Extra Large"
+            },
+            {
+              "value": "h2",
+              "label": "Large"
+            },
+            {
+              "value": "h3",
+              "label": "Medium"
+            },
+            {
+              "value": "h4",
+              "label": "Small"
+            }
+          ],
+          "default": "h3"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "Text",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Content",
+          "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "name": "Button",
+      "settings": [
+        {
+          "id": "button_text",
+          "type": "text",
+          "label": "Button label",
+          "default": "Shop Now",
+          "info": "Leave the label blank to hide the button."
+        },
+        {
+          "id": "button_link",
+          "type": "url",
+          "label": "Button link"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 4,
+  "presets": [
+    {
+      "name": "Chairs Image with text",
+      "blocks": [
+        {
+          "type": "subheading"
+        },
+        {
+          "type": "heading"
+        },
+        {
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,138 @@
+.underline {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+
+.section-header-container {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.event-names-container {
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.event-names-container button {
+  padding: 10px 0;
+  font-size: 20px;
+  text-transform: capitalize;
+  letter-spacing: 0.7px;
+}
+
+.category-btn {
+  cursor: pointer;
+  text-transform: capitalize;
+  padding-top: 10px;
+  letter-spacing: 1px;
+}
+
+/* Scroll to tabs styling */
+
+.scroll-to-tabs {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 70px;
+}
+
+.scroll-tabs-container {
+  text-transform: capitalize;
+  padding: 0 20px;
+}
+
+.scroll-tabs-container {
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+/* Block styling */
+
+.img-second {
+  flex-direction: row-reverse;
+}
+
+.speaker-block {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.speaker-img {
+  display: flex;
+  justify-content: center;
+}
+
+.speaker-img img {
+  border-radius: 4px;
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.speaker-name {
+  display: block;
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.speaker-sub-txt {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.speaker-content p {
+  font-size: 17px;
+  padding-top: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .speaker-block {
+    display: flex;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+  .category-btn {
+    padding: 0 10px;
+  }
+  .speaker-img {
+    width: 30%;
+    padding: 20px;
+  }
+  .speaker-info {
+    width: 70%;
+    padding: 20px 30px 20px;
+  }
+  .full-width {
+    width: 100% !important;
+  }
+  .speaker-content p {
+    line-height: 1.4;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .speaker-block {
+    width: 90%;
+  }
+  .speaker-name {
+    padding-top: 0;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .speaker-block {
+    width: 80%;
+  }
+}

@@ -1,0 +1,74 @@
+<div class="button-banner" style="background-color: {{ section.settings.banner_background_color }};">
+		{% if section.settings.banner_button_text != blank %}
+      <a
+        class="button {{ section.settings.banner_button_color }}{% if section.settings.banner_button_outline %} outline{%- endif %}"
+        href="{{ section.settings.button_banner_link }}">
+        <span>{{ section.settings.banner_button_text }}</span>
+      </a>
+    {% endif %}
+</div>
+
+<style>
+  .button-banner {
+    text-align: center;
+  }
+  .button-banner a {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+</style>
+
+{% schema %}
+  {
+    "name": "Button Banner",
+    "settings": [
+      {
+        "type": "text",
+        "id": "banner_button_text",
+        "label": "Text",
+        "default": "Text Here"
+      },
+      {
+        "type": "url",
+        "id": "button_banner_link",
+        "label": "Link"
+      },
+      {
+        "type": "color",
+        "id": "banner_background_color",
+        "label": "Banner Background Color"
+      },
+      {
+        "type": "select",
+        "id": "banner_button_color",
+        "label": "Button color",
+        "options": [
+          {
+            "value": "accent2",
+            "label": "Accent"
+          }, 
+          {
+            "value": "white",
+            "label": "White"
+          }, 
+          {
+            "value": "Blue",
+            "label": "Blue"
+          }
+        ],
+        "default": "accent2"
+      }, 
+      {
+        "type": "checkbox",
+        "id": "banner_button_outline",
+        "label": "Use outline button style",
+        "default": false
+      }
+    ],
+    "presets": [
+      {
+        "name": "Button Banner" 
+      }
+    ]
+  }
+  {% endschema %}

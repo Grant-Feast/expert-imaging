@@ -1,0 +1,404 @@
+{
+  "sections": {
+    "16479477632637c9a7": {
+      "type": "slideshow",
+      "blocks": {
+        "164794776393e76b8e-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EIOG_Blue_waves_2500x500px.jpg",
+            "heading": "Expert Imaging in Obstetrics & Gynaecology 2025",
+            "subheading": "Thursday 15th & Friday 16th May 2025",
+            "content": "Royal College of Physicians, London",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "Blue",
+            "button_outline": false
+          }
+        },
+        "57fafaa4-00c1-4c6d-bcee-c49c76d11faf": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Fourth-Picture-Garden-1-1.jpg",
+            "heading": "",
+            "subheading": "Royal College of physicians",
+            "content": "",
+            "button_text": "Venue",
+            "button_link": "shopify:\/\/pages\/venue",
+            "button_color": "Blue",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "164794776393e76b8e-0",
+        "57fafaa4-00c1-4c6d-bcee-c49c76d11faf"
+      ],
+      "settings": {
+        "desktop_height": "desktop-height-400",
+        "mobile_height": "mobile-height-300",
+        "content_position": "middle-left",
+        "text_alignment": "left",
+        "content_size": "medium",
+        "full_width": true,
+        "fade": false,
+        "autoplay": true,
+        "autoplay_length": 6,
+        "overlay_opacity": 60,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "scrolling_text_YJixPH": {
+      "type": "scrolling-text",
+      "blocks": {
+        "text_ry4XTL": {
+          "type": "text",
+          "settings": {
+            "text": "Registration Now Open",
+            "link": ""
+          }
+        },
+        "text_QgRHxT": {
+          "type": "text",
+          "settings": {
+            "text": "Registration Now Open",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_ry4XTL",
+        "text_QgRHxT"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "description": "",
+        "direction": "left",
+        "speed": "20s",
+        "text_size": 24,
+        "outline_text": false,
+        "color_bg": "#f6f6f0",
+        "color_text": "#c25b41",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "1648022924b3ee204e": {
+      "type": "scrolling-text",
+      "blocks": {
+        "1648022924da4799a5-2": {
+          "type": "text",
+          "settings": {
+            "text": "Ultrasound in Fetal Medicine",
+            "link": "shopify:\/\/pages\/fetal-medicine"
+          }
+        },
+        "1648022924da4799a5-0": {
+          "type": "text",
+          "settings": {
+            "text": "Ultrasound in Early Pregnancy Care",
+            "link": "shopify:\/\/pages\/early-pregnancy-care"
+          }
+        },
+        "1648022924da4799a5-1": {
+          "type": "text",
+          "settings": {
+            "text": "Ultrasound in Gynaecology",
+            "link": "shopify:\/\/pages\/gynaecology"
+          }
+        },
+        "aa55a0fe-f811-4954-aab3-a08108c533f2": {
+          "type": "text",
+          "settings": {
+            "text": "Trainee Course",
+            "link": "shopify:\/\/pages\/trainee-course"
+          }
+        }
+      },
+      "block_order": [
+        "1648022924da4799a5-2",
+        "1648022924da4799a5-0",
+        "1648022924da4799a5-1",
+        "aa55a0fe-f811-4954-aab3-a08108c533f2"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "direction": "left",
+        "speed": "30s",
+        "text_size": 24,
+        "outline_text": false,
+        "color_bg": "#f6f6f0",
+        "color_text": "#013f79",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "register_interest_tFNPEw": {
+      "type": "register-interest",
+      "settings": {
+        "text": "Register interest for EIOG 2025",
+        "button_text": "Submit",
+        "button_link": ""
+      }
+    },
+    "079d261c-8943-49c5-8d29-68340fef7a84": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14789565513809__079d261c-8943-49c5-8d29-68340fef7a84-1669810719b60652db-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Expert Imaging in Obstetrics & Gynaecology 2025",
+            "size": "h3"
+          }
+        },
+        "template--14789565513809__079d261c-8943-49c5-8d29-68340fef7a84-1669810719b60652db-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Convened by Imperial College London's Professors Tom Bourne and Christoph Lees, join us for a comprehensive 2-day conference focused on Expert Imaging in Obstetrics and Gynaecology.<\/p>",
+            "size": "text-size-regular"
+          }
+        },
+        "030a7aee-9007-4144-80e9-3ef5c90fd626": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With satellite and social sessions complementing the diverse schedule, this is an in-person opportunity to hear about new research, best practices and emerging technologies from international specialists and leading experts.<\/p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "template--14789565513809__079d261c-8943-49c5-8d29-68340fef7a84-1669810719b60652db-1",
+        "template--14789565513809__079d261c-8943-49c5-8d29-68340fef7a84-1669810719b60652db-2",
+        "030a7aee-9007-4144-80e9-3ef5c90fd626"
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "2974ac0a-f0f0-4ca5-bfb6-09193f5988d7": {
+      "type": "gallery",
+      "blocks": {
+        "template--14823512408145__2974ac0a-f0f0-4ca5-bfb6-09193f5988d7-167662662218fdadbb-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHOTO-2024-03-22-17-06-42.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "template--14823512408145__2974ac0a-f0f0-4ca5-bfb6-09193f5988d7-167662662218fdadbb-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHOTO-2024-03-21-11-09-21_2.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "template--14823512408145__2974ac0a-f0f0-4ca5-bfb6-09193f5988d7-167662662218fdadbb-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHOTO-2024-03-21-14-07-40.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "1e854c61-47e3-4b17-9e6f-4e7f67ca2334": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHOTO-2024-03-22-14-51-14.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14823512408145__2974ac0a-f0f0-4ca5-bfb6-09193f5988d7-167662662218fdadbb-0",
+        "template--14823512408145__2974ac0a-f0f0-4ca5-bfb6-09193f5988d7-167662662218fdadbb-1",
+        "template--14823512408145__2974ac0a-f0f0-4ca5-bfb6-09193f5988d7-167662662218fdadbb-2",
+        "1e854c61-47e3-4b17-9e6f-4e7f67ca2334"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "columns_desktop": 4,
+        "full_width": true,
+        "mobile_swipe": true,
+        "image_ratio": "portrait",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "small",
+        "heading_size": "h4",
+        "overlay_opacity": 70,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "164812231521d5c57e": {
+      "type": "testimonials",
+      "blocks": {
+        "1648122315e072ed7b-0": {
+          "type": "quote",
+          "settings": {
+            "stars": "",
+            "text": "The EIOG conference was excellent. It was one of the most interesting, informative, and engaging learning events I have ever attended. The learning from this conference will have a significant impact on my daily practice.",
+            "author": "Fetal Medicine Delegate​ (2024)",
+            "retina": true
+          }
+        },
+        "1648122315e072ed7b-2": {
+          "type": "quote",
+          "settings": {
+            "stars": "",
+            "text": "Fantastic presentations and great speakers. I especially enjoyed the case studies that followed the lectures, which really consolidated the learning points. This was one of the best conferences I've attended!",
+            "author": "Gynaecology Delegate (2024)",
+            "retina": true
+          }
+        },
+        "1648122315e072ed7b-1": {
+          "type": "quote",
+          "settings": {
+            "stars": "",
+            "text": "The level of detail and the quality of the speakers were outstanding. I left feeling more confident in my ultrasound skills and excited to apply what I learned in practice.",
+            "author": "Trainee Delegate​ (2024)",
+            "retina": true
+          }
+        },
+        "34592ce5-857d-485f-8f85-cbfbc740bc61": {
+          "type": "quote",
+          "settings": {
+            "stars": "",
+            "text": "I would highly recommend this conference to anyone in the field of obstetrics and gynaecology. The quality of the lectures and speakers was excellent, and it was a great opportunity to network with peers.",
+            "author": "Early Pregnancy Care Delegate​ (2024)",
+            "retina": true
+          }
+        }
+      },
+      "block_order": [
+        "1648122315e072ed7b-0",
+        "1648122315e072ed7b-2",
+        "1648122315e072ed7b-1",
+        "34592ce5-857d-485f-8f85-cbfbc740bc61"
+      ],
+      "settings": {
+        "heading": "Testimonials",
+        "description": "<p>Expert Imaging in Obstetrics and Gynaecology event 2022.<\/p>",
+        "size": "medium",
+        "autoplay": true,
+        "autoplay_length": 5,
+        "color_bg": "#013f79",
+        "color_text": "#f6f6f0",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "8b3a128d-fa0d-41a2-be6f-dd128b0ad4dc": {
+      "type": "button-banner",
+      "settings": {
+        "banner_button_text": "Click Here For Registration Fees",
+        "button_banner_link": "https:\/\/www.symposia.org.uk\/courses\/expert-imaging-in-obstetrics-and-gynaecology-2025\/",
+        "banner_background_color": "#ffffff",
+        "banner_button_color": "Blue",
+        "banner_button_outline": false
+      }
+    },
+    "logo_list_mYhqwG": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_6wNW4k": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Samsung_Logo_002_2.png",
+            "link": "https:\/\/samsunghealthcare.com\/en"
+          }
+        },
+        "logo_xzcV7j": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GE_HEALTHCARE_LOGO.png",
+            "link": "https:\/\/www.gehealthcare.co.uk\/"
+          }
+        },
+        "logo_XxEPVb": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FUJIFILM_Slogan_450.png",
+            "link": "https:\/\/www.fujifilmhealthcare.co.uk"
+          }
+        },
+        "logo_n6LGHi": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Nexus_Astria_Logo.png",
+            "link": "https:\/\/www.nexus-astraia.com"
+          }
+        },
+        "logo_YNE3n7": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Germitec_logo.png",
+            "link": "https:\/\/www.germitec.com\/en-uk"
+          }
+        }
+      },
+      "block_order": [
+        "logo_6wNW4k",
+        "logo_xzcV7j",
+        "logo_XxEPVb",
+        "logo_n6LGHi",
+        "logo_YNE3n7"
+      ],
+      "settings": {
+        "heading": "Our 2024 Sponsors",
+        "description": "",
+        "columns": 5,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "logo_list_Jjazbf": {
+      "type": "logo-list",
+      "settings": {
+        "heading": "Our 2025 sponsors will be showcased here soon.",
+        "description": "",
+        "columns": 5,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "16479477632637c9a7",
+    "scrolling_text_YJixPH",
+    "1648022924b3ee204e",
+    "register_interest_tFNPEw",
+    "079d261c-8943-49c5-8d29-68340fef7a84",
+    "2974ac0a-f0f0-4ca5-bfb6-09193f5988d7",
+    "164812231521d5c57e",
+    "8b3a128d-fa0d-41a2-be6f-dd128b0ad4dc",
+    "logo_list_mYhqwG",
+    "logo_list_Jjazbf"
+  ]
+}

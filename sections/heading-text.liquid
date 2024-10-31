@@ -1,0 +1,26 @@
+{{ 'heading-text.css' | asset_url | stylesheet_tag }}
+<div class="heading-text-section">
+  <div class="heading-text-inner">
+    <h2> {{ section.settings.heading_text_title }} </h2>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Text Box",
+    "settings": [
+      {
+        "id": "heading_text_title",
+        "type": "text",
+        "label": "Heading",
+        "default": "Heading"
+      }
+    ],
+    "presets": [
+      {
+      "name": "Heading Text",
+      "category": "Custom"
+      }
+      ]
+  }
+{% endschema %}

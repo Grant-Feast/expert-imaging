@@ -1,0 +1,354 @@
+{
+  "sections": {
+    "template-header": {
+      "type": "template-header",
+      "settings": {
+        "full_width": true,
+        "overlay_opacity": 0,
+        "display_description": true,
+        "bg_image": "shopify:\/\/shop_images\/Fourth-Picture-Garden-1-1.jpg"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "a5917db3-6a64-4c9c-b0a2-2e0b8eb1838c": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14814356111441__a5917db3-6a64-4c9c-b0a2-2e0b8eb1838c-16748396421e57cfb6-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The 2025 Expert Imaging in Obstetrics & Gynaecology conference will take place from the 15th - 16th May 2025 at the Royal College of Physicians, London.<\/p><p>Venue: <\/p><p>Royal College of Physicians,<\/p><p>11 St Andrews Place<\/p><p>Regent’s Park, <\/p><p>London, <\/p><p>NW1 4LE<\/p><p>Tel: 020 7034 4900<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14814356111441__a5917db3-6a64-4c9c-b0a2-2e0b8eb1838c-16748396421e57cfb6-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/rcpmap.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "content_position": "text-left",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "d6ab21ef-b818-44f8-bb08-f253b459d811": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14789565775953__d6ab21ef-b818-44f8-bb08-f253b459d811-166964044093292f30-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/areoplane_jpg.webp",
+            "title": "International Airports",
+            "heading_size": "h4",
+            "text": "<p>London City - 26 mins<\/p><p>Gatwick - 44 mins<\/p><p>Heathrow - 47 mins<\/p><p>Luton - 47 mins<\/p><p>Stansted - 1 hr 5 mins<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14789565775953__d6ab21ef-b818-44f8-bb08-f253b459d811-166964044093292f30-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/underground_jpg.webp",
+            "title": "Nearest Tube",
+            "heading_size": "h4",
+            "text": "<p>St. James's Park - 4 mins walk<\/p><p>Westminster - 5 mins walk<\/p><p>Victoria Station - 14 mins walk<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14789565775953__d6ab21ef-b818-44f8-bb08-f253b459d811-166964044093292f30-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/train_station_jpg.webp",
+            "title": "Mainline Rail Stations",
+            "heading_size": "h4",
+            "text": "<p>Charing Cross - 12 mins walk<\/p><p>Victoria - 14 mins walk<\/p><p>Waterloo - 18 mins walk<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14789565775953__d6ab21ef-b818-44f8-bb08-f253b459d811-166964044093292f30-0",
+        "template--14789565775953__d6ab21ef-b818-44f8-bb08-f253b459d811-166964044093292f30-1",
+        "template--14789565775953__d6ab21ef-b818-44f8-bb08-f253b459d811-166964044093292f30-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "description": "",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "mobile_swipe": false,
+        "text_alignment": "left",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "ed8aa0df-386c-42f1-848c-f799fa3d61e0": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--14789565775953__ed8aa0df-386c-42f1-848c-f799fa3d61e0-166980669642239748-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Car Parking",
+            "content": "<p>There are several car parks within walking distance of the Centre but parking spaces are limited.<\/p><p>Van and Car parking is available at the <a href=\"https:\/\/www.q-park.co.uk\/en-gb\/?l=London%20SW1P%203EE,%20United%20Kingdom\">Q-Park Westminster<\/a>, which is a 7-minute walk from the Centre.<\/p>",
+            "page": ""
+          }
+        },
+        "template--14789565775953__ed8aa0df-386c-42f1-848c-f799fa3d61e0-166980669642239748-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Disabled Parking",
+            "content": "<p>Blue badge holders are permitted to park on the QEII Centre forecourt free of charge. Parking in this location is subject to availability so please call ahead on <strong>+44 20 7798 4000<\/strong> to enquire.<\/p><p>Disabled passengers arriving by taxis or alternative vehicles may disembark on the forecourt.<\/p><p>Alternatively the nearest Blue Badge disabled parking bay is located on <a href=\"https:\/\/goo.gl\/maps\/PxtfZudjWs72\">Matthew Parker Street<\/a>. Alternatively, a little further away, there are bays on <a href=\"https:\/\/goo.gl\/maps\/JusaHrmEoDs\">Tothill Street<\/a> and <a href=\"https:\/\/goo.gl\/maps\/yRV5vdZXqmx\">Old Queen Street<\/a>. Please see Westminster Council’s website for further information.<\/p>",
+            "page": ""
+          }
+        },
+        "template--14789565775953__ed8aa0df-386c-42f1-848c-f799fa3d61e0-166980669642239748-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Santander Cycles & Cycle Parking",
+            "content": "<p>The Santander cycle scheme provides access to 12,000 bikes and 800 docking stations across London.<\/p><p>There are several docking stations in close proximity, including the nearest at Storey’s Gate opposite the side of the QEII and Abbey Orchard Street, a five minute-walk away. To find out more about where you can hire and dock the bikes, please visit <a href=\"https:\/\/tfl.gov.uk\/modes\/cycling\/santander-cycles\/find-a-docking-station\">https:\/\/tfl.gov.uk\/modes\/cycling\/santander-cycles\/find-a-docking-station<\/a><\/p><p>If you are cycling to the QEII using your own bike and would like to find an area to park it, please <a href=\"https:\/\/www.westminster.gov.uk\/find-cycle-parking\">click here<\/a><\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14789565775953__ed8aa0df-386c-42f1-848c-f799fa3d61e0-166980669642239748-0",
+        "template--14789565775953__ed8aa0df-386c-42f1-848c-f799fa3d61e0-166980669642239748-1",
+        "template--14789565775953__ed8aa0df-386c-42f1-848c-f799fa3d61e0-166980669642239748-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Parking",
+        "description": "<p><\/p>",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "f8efa9bc-ca5d-4f7f-aef4-28797742ab37": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--14789565775953__f8efa9bc-ca5d-4f7f-aef4-28797742ab37-166980669642239748-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Driving",
+            "content": "<p>Blue badge holders are permitted to park on the QEII Centre forecourt free of charge. Parking in this location is subject to availability so please call ahead on <strong>+44 20 7798 4000<\/strong> to enquire.<\/p><p>Disabled passengers arriving by taxis or alternative vehicles may disembark on the forecourt.<\/p>",
+            "page": ""
+          }
+        },
+        "template--14789565775953__f8efa9bc-ca5d-4f7f-aef4-28797742ab37-166980669642239748-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Public Transport",
+            "content": "<p>The nearest step-free tube station is Westminster, which is served by the Jubilee, District and Circle lines.<\/p>",
+            "page": ""
+          }
+        },
+        "template--14789565775953__f8efa9bc-ca5d-4f7f-aef4-28797742ab37-166980669642239748-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Getting Around the Centre",
+            "content": "<p>There is a ramp from the forecourt which leads to the QEII Centre front doors and is wide enough for easy wheelchair access. In addition to this, a DDA compliant registration point is also available to wheelchair delegates. All of our meeting and conference rooms have step-free access via corridors wide enough to easily manoeuvre a wheelchair.<\/p><p>There nine passenger lifts, all of which can accommodate a wheelchair. One of these is a fireman’s lift that can be used in the event of an evacuation.<\/p><p>There is no fixed seating at the QEII Centre, therefore wheelchair spaces can be positioned anywhere in the meeting rooms.  We can fit a wheelchair ramp to the stage in larger meeting areas, or arrange a portable wheelchair lift to provide access to the stage in smaller meeting rooms.<\/p>",
+            "page": ""
+          }
+        },
+        "template--14789565775953__f8efa9bc-ca5d-4f7f-aef4-28797742ab37-166980669642239748-3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Disabled Toilet Facilities",
+            "content": "<p>There are accessible toilet facilities throughout the QEII Centre. These are equipped with emergency alarms and can be accessed from all of our rooms by using lifts where necessary.<\/p>",
+            "page": ""
+          }
+        },
+        "template--14789565775953__f8efa9bc-ca5d-4f7f-aef4-28797742ab37-166980669642239748-4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Assistance and Guide Dogs",
+            "content": "<p>You are welcome to bring your guide dog, hearing dog or other assistance dog into the QEII Centre.<\/p>",
+            "page": ""
+          }
+        },
+        "c4752c2a-7a0c-4af8-a602-667af02b7212": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Induction Loops",
+            "content": "<p>Most of the rooms have permanent induction loops for the audio impaired, and in the remainder, they can be fitted by arrangement with <a href=\"https:\/\/qeiicentre.london\/services\/qeii-live\/\">QEII Live<\/a>. If you are a delegate at this event requiring this facility, please contact the Genesis event organiser who will arrange this for you.<\/p>",
+            "page": ""
+          }
+        },
+        "65800367-03c7-4559-8d1e-223c935e9bb8": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Personal Evacuation Plans",
+            "content": "<p>We must ensure that everyone can be safely evacuated in the unlikely event of an emergency. If you feel that your disability could delay evacuation of yourself or others via the fire escape stairs, please contact the QEII Centre’s Fire Officer prior to your event on <strong>+44 20 7798 4053<\/strong> to agree a mutually convenient personal evacuation plan.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14789565775953__f8efa9bc-ca5d-4f7f-aef4-28797742ab37-166980669642239748-0",
+        "template--14789565775953__f8efa9bc-ca5d-4f7f-aef4-28797742ab37-166980669642239748-1",
+        "template--14789565775953__f8efa9bc-ca5d-4f7f-aef4-28797742ab37-166980669642239748-2",
+        "template--14789565775953__f8efa9bc-ca5d-4f7f-aef4-28797742ab37-166980669642239748-3",
+        "template--14789565775953__f8efa9bc-ca5d-4f7f-aef4-28797742ab37-166980669642239748-4",
+        "c4752c2a-7a0c-4af8-a602-667af02b7212",
+        "65800367-03c7-4559-8d1e-223c935e9bb8"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Accessibility Information",
+        "description": "<p><\/p>",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "e3feaec3-23f1-49ae-bd97-e73b3f380c37": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--14789565775953__e3feaec3-23f1-49ae-bd97-e73b3f380c37-166980669642239748-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What facilities are there for disabled visitors at QEII Centre?",
+            "content": "<p>The Centre has disabled parking bays which can be used by blue badge holders. The Centre also has ramps into the building as well as onto stages in our main spaces. Disabled toilets are located on five of our seven floors.<\/p><p>For more accessibility information, please <a href=\"https:\/\/qeiicentre.london\/about\/accessibility-information\/\">click here<\/a>.<\/p>",
+            "page": ""
+          }
+        },
+        "template--14789565775953__e3feaec3-23f1-49ae-bd97-e73b3f380c37-166980669642239748-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Is there free wireless at the QEII centre?",
+            "content": "<p>We provide free, superfast wired and wireless connectivity throughout the QEII Centre, suitable for social media, browsing and email. When you arrive at the venue, please log on to ‘QEII Guest’.<\/p>",
+            "page": ""
+          }
+        },
+        "template--14789565775953__e3feaec3-23f1-49ae-bd97-e73b3f380c37-166980669642239748-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What is the smoking policy?",
+            "content": "<p>Smoking (including the use of electronic e-cigarettes) is not permitted within the Centre or at the entrance to the building. Dedicated smoking areas will be advised by your Genesis event organsier.<\/p>",
+            "page": ""
+          }
+        },
+        "template--14789565775953__e3feaec3-23f1-49ae-bd97-e73b3f380c37-166980669642239748-3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Do you have any recommended hotels?",
+            "content": "<p>The QEII Centre is superbly located in central London, with thousands of hotel rooms located within a 10 minute walk of the venue. <a href=\"https:\/\/ https:\/\/qeiicentre.london\/about\/hotels\/ (opens a new window)\" target=\"_blank\" title=\"https:\/\/ https:\/\/qeiicentre.london\/about\/hotels\/ (opens a new window)\">Click here<\/a> for more information.<\/p>",
+            "page": ""
+          }
+        },
+        "template--14789565775953__e3feaec3-23f1-49ae-bd97-e73b3f380c37-166980669642239748-4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How do I get to the venue?",
+            "content": "<p>Located near several tube and rail stations, including Westminster, St. James’s Park, Victoria and Waterloo, the QEII Centre is easily accessible.<\/p><p>Approximately one hour from the Centre are 5 international airports.<\/p><p>You can find directions for all forms of transport <a href=\"https:\/\/qeiicentre.london\/about\/location\/\">here<\/a>.<\/p>",
+            "page": ""
+          }
+        },
+        "e9eca227-46e4-4105-af9e-899fe2258bdb": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Is there a drop off\/pick up point for taxis?",
+            "content": "<p>Taxis can drop off at the security barrier or if carrying a disabled passenger can pull up at the front door.<\/p>",
+            "page": ""
+          }
+        },
+        "a04c2a57-f6ab-49b8-9301-7358365e89c1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Are there parking facilities available for all types of vehicles onsite?",
+            "content": "<p>We do not have public car parking facilities at the Centre, but you can find information on local car parks <a href=\"https:\/\/qeiicentre.london\/about\/location\/\">here<\/a>.<\/p>",
+            "page": ""
+          }
+        },
+        "116fcad8-d365-4d6d-9ee9-8104f418886e": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Where is the nearest Santander docking station?",
+            "content": "<p>A Santander docking station is located on Storey’s Gate, at the west side of the Centre.<\/p>",
+            "page": ""
+          }
+        },
+        "a28f7b32-8b9c-49ad-8a39-691981fe5d05": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Do you have cloakroom or storage facilities?",
+            "content": "<p>There is a free of charge cloakroom on the ground floor where larger items, such as suitcases, can also be stored. We do not store items overnight in the cloakroom.<\/p>",
+            "page": ""
+          }
+        },
+        "4057c6ae-1726-41d7-a72d-736a51e91bf1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Are dogs allowed in the venue?",
+            "content": "<p>The centre welcomes guide dogs, hearing dogs and other assistance dogs at the Centre. No other pets are permitted unless by arrangement with the centre.<\/p>",
+            "page": ""
+          }
+        },
+        "0993f69f-c056-47e1-a097-2ee9899824a6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Are there any prayer rooms available?",
+            "content": "<p>There are no dedicated prayer rooms, but if required, rooms can be allocated.<\/p>",
+            "page": ""
+          }
+        },
+        "0d9871cd-cdb4-44d0-a62a-f584ac110927": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What happens to lost property?",
+            "content": "<p>All lost property is handed in to the reception team. If you have lost an item please contact the Genesis event manager or the QEII Centre reception team on <strong>+44 20 7798 4000<\/strong>.<\/p>",
+            "page": ""
+          }
+        },
+        "e5234062-71e1-413f-a1e3-c5f756181c6a": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Can we charge our devices at the venue?",
+            "content": "<p>Please speak to the Genesis event organiser or reception team who have a number of chargers that can be used, subject to availability.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14789565775953__e3feaec3-23f1-49ae-bd97-e73b3f380c37-166980669642239748-0",
+        "template--14789565775953__e3feaec3-23f1-49ae-bd97-e73b3f380c37-166980669642239748-1",
+        "template--14789565775953__e3feaec3-23f1-49ae-bd97-e73b3f380c37-166980669642239748-2",
+        "template--14789565775953__e3feaec3-23f1-49ae-bd97-e73b3f380c37-166980669642239748-3",
+        "template--14789565775953__e3feaec3-23f1-49ae-bd97-e73b3f380c37-166980669642239748-4",
+        "e9eca227-46e4-4105-af9e-899fe2258bdb",
+        "a04c2a57-f6ab-49b8-9301-7358365e89c1",
+        "116fcad8-d365-4d6d-9ee9-8104f418886e",
+        "a28f7b32-8b9c-49ad-8a39-691981fe5d05",
+        "4057c6ae-1726-41d7-a72d-736a51e91bf1",
+        "0993f69f-c056-47e1-a097-2ee9899824a6",
+        "0d9871cd-cdb4-44d0-a62a-f584ac110927",
+        "e5234062-71e1-413f-a1e3-c5f756181c6a"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "QEII Centre Faqs",
+        "description": "",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    }
+  },
+  "order": [
+    "template-header",
+    "main",
+    "a5917db3-6a64-4c9c-b0a2-2e0b8eb1838c",
+    "d6ab21ef-b818-44f8-bb08-f253b459d811",
+    "ed8aa0df-386c-42f1-848c-f799fa3d61e0",
+    "f8efa9bc-ca5d-4f7f-aef4-28797742ab37",
+    "e3feaec3-23f1-49ae-bd97-e73b3f380c37"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "sections": {
+    "template-header": {
+      "type": "template-header",
+      "custom_css": [
+        "h1,p {background-color: #1855816e; padding: 5px;}",
+        "h1 {margin-bottom: 0px !important;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "overlay_opacity": 10,
+        "display_description": true,
+        "bg_image": "shopify:\/\/shop_images\/EIOG_Blue_waves_2500x500px.jpg"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "rich_text_mN4BnD": {
+      "type": "rich-text",
+      "blocks": {
+        "text_zL3YM6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>An overview of the 2024 programmes can be downloaded below.<\/p>",
+            "size": "text-size-regular"
+          }
+        },
+        "button_MkEW66": {
+          "type": "button",
+          "settings": {
+            "link_label": "Programme overview click here",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0567\/9461\/1793\/files\/EIOG_24_Programme_Overview_20.03.2024.pdf?v=1710967639",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "text_zL3YM6",
+        "button_MkEW66"
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "rich_text_RDCEjK": {
+      "type": "rich-text",
+      "blocks": {
+        "text_pJ4YqU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our 2025 programme will be available shortly.<\/p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "text_pJ4YqU"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "template-header",
+    "main",
+    "rich_text_mN4BnD",
+    "rich_text_RDCEjK"
+  ]
+}

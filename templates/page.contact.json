@@ -1,0 +1,39 @@
+{
+  "sections": {
+    "1652268757b7c53383": {
+      "type": "contact-form",
+      "blocks": {
+        "165226875777ee1cd4-0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "heading": "Heading",
+            "text": "<p>Add your store address or<br\/>your store hours<\/p>"
+          }
+        },
+        "165226875777ee1cd4-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "heading": "Heading",
+            "text": "<p>Add your store address or<br\/>your store hours<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "165226875777ee1cd4-0",
+        "165226875777ee1cd4-1"
+      ],
+      "settings": {
+        "heading": "Contact form",
+        "description": "<p><\/p>",
+        "show_phone_number": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "1652268757b7c53383"
+  ]
+}

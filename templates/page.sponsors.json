@@ -1,0 +1,249 @@
+{
+  "sections": {
+    "template-header": {
+      "type": "template-header",
+      "settings": {
+        "full_width": true,
+        "overlay_opacity": 30,
+        "display_description": true,
+        "bg_image": "shopify:\/\/shop_images\/EIOG_Blue_waves_2500x500px.jpg"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "rich_text_GrykeR": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_apx3zt": {
+          "type": "subheading",
+          "settings": {
+            "text": "Our sponsors for 2025 will be showcased here soon."
+          }
+        }
+      },
+      "block_order": [
+        "subheading_apx3zt"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "image_with_text_CwteNf": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Rzzard": {
+          "type": "heading",
+          "settings": {
+            "text": "Samsung Healthcare: Combining leading technology to improve the quality of people’s lives",
+            "heading_size": "h3"
+          }
+        },
+        "text_9XtKpC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Samsung is committed to create a new future for medical professionals and patients with a mission to bring health and well-being to people’s lives. Integrating its leading expertise in display, IT, mobile and electronics, our vision is to bring confident diagnosis, cost-effective solutions and improved workflow to customers.  Specializing in diagnostic imaging devices, Samsung’s innovation in healthcare is led by Samsung Electronics’ Health & Medical Equipment Business and Samsung Medison, with more than 1,600 employees over 100 countries.<\/p>"
+          }
+        },
+        "button_AhiRmx": {
+          "type": "button",
+          "settings": {
+            "button_text": "Visit Samsung Healthcare",
+            "button_link": "https:\/\/samsunghealthcare.com\/en"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Rzzard",
+        "text_9XtKpC",
+        "button_AhiRmx"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Samsung_Logo_002_2.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "content_position": "text-left",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "image_with_text_wqWFhc": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_dDpdJr": {
+          "type": "heading",
+          "settings": {
+            "text": "GE Healthcare",
+            "heading_size": "h3"
+          }
+        },
+        "text_i6fADc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At GE HealthCare, we see possibilities through innovation. We’re partnering with our customers to fulfil healthcare’s greatest potential through groundbreaking medical technology, intelligent devices, and care solutions. Better tools enabling better patient care. Together, we are not only building a healthier future but living our purpose to create a world where healthcare has no limits.<\/p>"
+          }
+        },
+        "button_6abmCt": {
+          "type": "button",
+          "settings": {
+            "button_text": "Visit GE Healthcare",
+            "button_link": "https:\/\/www.gehealthcare.co.uk\/"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dDpdJr",
+        "text_i6fADc",
+        "button_6abmCt"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/GE_HEALTHCARE_LOGO.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "content_position": "text-left",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "image_with_text_K4ixXp": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Lgxm6q": {
+          "type": "heading",
+          "settings": {
+            "text": "Fujifilm",
+            "heading_size": "h3"
+          }
+        },
+        "text_wxgDyY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Fujifilm<strong> <\/strong>Healthcare UK Ltd is a leading provider of innovative medical imaging systems and healthcare solutions. Our portfolio covers digital x-ray, mammography, ultrasound, CT, MRI, enterprise imaging solutions (including PACS, VNA, Clinical Workflow Management and 3D surgical planning tools), AI, Digital Pathology and near patient IVD testing analysers for dry chemistry.<\/p><p><br\/><\/p><p>With a history of manufacturing x-ray film since the 1930s, for decades we have been using our heritage in photography and film to bring exciting new solutions to the healthcare market. By leveraging advanced technology from across a broad business, we have developed new ways of meeting the needs of modern healthcare by providing value through innovation.<\/p>"
+          }
+        },
+        "button_UW9Wz3": {
+          "type": "button",
+          "settings": {
+            "button_text": "Visit Fujifilm",
+            "button_link": "https:\/\/www.fujifilmhealthcare.co.uk"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Lgxm6q",
+        "text_wxgDyY",
+        "button_UW9Wz3"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/FUJIFILM_Slogan_450.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "content_position": "text-left",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "image_with_text_7eKA3M": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_bCxdkg": {
+          "type": "heading",
+          "settings": {
+            "text": "Nexus Astraia",
+            "heading_size": "h3"
+          }
+        },
+        "text_dLyy7y": {
+          "type": "text",
+          "settings": {
+            "text": "<p>NEXUS \/ ASTRAIA GmbH (formerly astraia software GmbH) provides a comprehensive, practical and efficient documentation system in line with the latest health developments, which makes the examination documentation and the reporting at the end of the examination a smooth and seamless process.<\/p><p><\/p><p>We always strive to deliver the best possible solutions to our customers, developed in close cooperation with leading experts across the world and sustained by our 20 years of experience as specialist for OB\/GYN software in the global market. Our products are certified as medical device (Class IIa and IVD) according to ISO 13485.<\/p>"
+          }
+        },
+        "button_Qz7YAM": {
+          "type": "button",
+          "settings": {
+            "button_text": "Visit Nexus Astraia",
+            "button_link": "https:\/\/www.nexus-astraia.com"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bCxdkg",
+        "text_dLyy7y",
+        "button_Qz7YAM"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Nexus_Astria_Logo.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "content_position": "text-left",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "image_with_text_G6GAPm": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Uc7qbC": {
+          "type": "heading",
+          "settings": {
+            "text": "Germitec",
+            "heading_size": "h3"
+          }
+        },
+        "text_U8W7kp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As a world innovator in UV-C high-level disinfection (HLD) for reprocessing non-lumen medical devices, GERMITEC® is committed to developing, manufacturing, and commercializing HLD devices that radically simplify the work of healthcare professionals, make examination settings safer, faster, traceable, and chemical-free.<\/p>"
+          }
+        },
+        "button_3YdtAG": {
+          "type": "button",
+          "settings": {
+            "button_text": "Visit Germitec",
+            "button_link": "https:\/\/www.germitec.com\/en-uk"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Uc7qbC",
+        "text_U8W7kp",
+        "button_3YdtAG"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Germitec_logo.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "content_position": "text-left",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "template-header",
+    "main",
+    "rich_text_GrykeR",
+    "image_with_text_CwteNf",
+    "image_with_text_wqWFhc",
+    "image_with_text_K4ixXp",
+    "image_with_text_7eKA3M",
+    "image_with_text_G6GAPm"
+  ]
+}

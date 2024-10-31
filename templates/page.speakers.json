@@ -1,0 +1,1424 @@
+{
+  "sections": {
+    "template-header": {
+      "type": "template-header",
+      "custom_css": [
+        "h1,p {background-color: #1855816e; padding: 5px;}",
+        "h1 {margin-bottom: 0px !important;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "overlay_opacity": 10,
+        "display_description": true,
+        "bg_image": "shopify:\/\/shop_images\/EIOG_Blue_waves_2500x500px.jpg"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "speakers": {
+      "type": "main-speakers",
+      "blocks": {
+        "speaker_dgKCHj": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "fetal medicine",
+            "speaker_id": "",
+            "block_bg_color": "#f8c1b1",
+            "speaker_name": "Professor Julene Carvalho",
+            "speaker_name_color": "#5c4545",
+            "speaker_subtext": "Prof JS Carvalho MD, PhD, FRCPCH",
+            "speaker_subtxt_color": "#845454",
+            "speaker_content": "<p>Julene Carvalho is a paediatric and fetal cardiologist. She works at the Royal Brompton and St George's Hospitals in London and is Professor of Practice at St George's University of London in the UK. She is an ISUOG Fellow, having been a Board Member and Trustee in 2009-16. As 'Chair' of the Fetal Heart Special Interest Group she recently published 'ISUOG updated cardiac guidelines for screening'. She has a large educational portfolio and has delivered many lectures in the UK and around the world. She has many publications in the field of fetal cardiology. Some of her research interests are early fetal echo, fetal arrhythmias, perinatal circulation and inherited cardiac conditions.<\/p>",
+            "speaker_content_color": "#3d3131",
+            "img_second": false
+          }
+        },
+        "speaker_KbxHH8": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "fetal medicine",
+            "speaker_id": "",
+            "block_bg_color": "#f8c1b1",
+            "speaker_name": "Dr Trisha Vigneswaran",
+            "speaker_name_color": "#5c4545",
+            "speaker_subtext": "",
+            "speaker_subtxt_color": "#ffffff",
+            "speaker_content": "<p>Trisha Vigneswaran is a Consultant in Paediatric & Fetal Cardiology at Evelina London Children’s Hospital, Guy’s & St Thomas’ NHS Trust having trained in paediatrics and paediatric cardiology with sub-specialisation in fetal cardiology in London, UK. She is the Clinical Lead for the fetal cardiology service at Evelina London Children’s Hospital. Her research interests include maternal hyperoxygenation testing, coarctation of the aorta and vascular rings.<\/p>",
+            "speaker_content_color": "#3d3131",
+            "img_second": true
+          }
+        },
+        "speaker_zcpHbG": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "fetal medicine",
+            "speaker_id": "",
+            "block_bg_color": "#f8c1b1",
+            "speaker_name": "Dr Laura Vazquez-Garcia",
+            "speaker_name_color": "#5c4545",
+            "speaker_subtext": "",
+            "speaker_subtxt_color": "#ffffff",
+            "speaker_content": "<p>I am Fetal and Paediatric Cardiologist. I trained in paediatric cardiology in Spain and London and specialised in fetal cardiology in Toronto.  Since 2019 I work as a consultant at the Royal Brompton Hospital and perform my fetal cardiology clinics at Queen Charlotte´s and Chelsea Hospital, where I also provide paediatric cardiology input in the neonatal unit.<\/p>",
+            "speaker_content_color": "#3d3131",
+            "speaker_img": "shopify:\/\/shop_images\/Laura_Vazquez-Garcia.jpg",
+            "img_second": false
+          }
+        },
+        "speaker_gDGLHf": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "fetal medicine",
+            "speaker_id": "",
+            "block_bg_color": "#f8c1b1",
+            "speaker_name": "Professor Christoph Lees",
+            "speaker_name_color": "#5c4545",
+            "speaker_subtext": "Professor of Obstetrics",
+            "speaker_subtxt_color": "#845454",
+            "speaker_content": "<p>Christoph Lees is Professor of Obstetrics at Imperial College London and Honorary Consultant in Obstetrics and Head of Fetal Medicine at the Centre for Fetal Care, Queen Charlotte’s and Chelsea Hospital, Imperial College Healthcare NHS Trust. He leads research into assessment of fetal health with Doppler ultrasound, scanning in labour, and non-invasive fetal surgery, including the first in human studies of high-intensity focused ultrasound.<\/p>",
+            "speaker_content_color": "#3d3131",
+            "speaker_img": "shopify:\/\/shop_images\/Christoph_Lees.jpg",
+            "img_second": true
+          }
+        },
+        "speaker_LikKbF": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "fetal medicine",
+            "speaker_id": "",
+            "block_bg_color": "#f8c1b1",
+            "speaker_name": "Professor Tamara Stampalija",
+            "speaker_name_color": "#5c4545",
+            "speaker_subtext": "Professor of Obstetrics",
+            "speaker_subtxt_color": "#845454",
+            "speaker_content": "<p>I am a Consultant Obstetrician and Lead for Cerner & Fetal Medicine at London Northwest Hospitals NHS Trust. I have special interest in Placenta Accreta Spectrum (PAS) and Vasa Previa and have published extensively on PAS. Whilst completing my MD with Prof Christoph Lees, we set up the PAS\/AIP pathway at Imperial College NHS Trusts.  I am an Honorary Consultant at ICHT where I organise placenta clinics.<\/p>",
+            "speaker_content_color": "#3d3131",
+            "speaker_img": "shopify:\/\/shop_images\/Stampaljia_Tamara.jpg",
+            "img_second": false
+          }
+        },
+        "speaker_gtbxjk": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "fetal medicine",
+            "speaker_id": "",
+            "block_bg_color": "#f8c1b1",
+            "speaker_name": "Dr Raffaele Napolitano",
+            "speaker_name_color": "#5c4545",
+            "speaker_subtext": "Consultant in Obstetrics and Fetal Medicine",
+            "speaker_subtxt_color": "#845454",
+            "speaker_content": "",
+            "speaker_content_color": "#3d3131",
+            "img_second": true
+          }
+        },
+        "speaker_HbyP4g": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "fetal medicine",
+            "speaker_id": "",
+            "block_bg_color": "#f8c1b1",
+            "speaker_name": "Mr Dulanka Silva",
+            "speaker_name_color": "#5c4545",
+            "speaker_subtext": "Consultant Paediatric Neurosurgeon",
+            "speaker_subtxt_color": "#845454",
+            "speaker_content": "",
+            "speaker_content_color": "#3d3131",
+            "img_second": false
+          }
+        },
+        "speaker_9jMxCV": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "fetal medicine",
+            "speaker_id": "",
+            "block_bg_color": "#f8c1b1",
+            "speaker_name": "Dr Dagmar Tapon",
+            "speaker_name_color": "#5c4545",
+            "speaker_subtext": "PhD, MSc. Lead Genetic Counsellor",
+            "speaker_subtxt_color": "#845454",
+            "speaker_content": "<p>Dagmar works as a specialist prenatal genetic counsellor with many years’ experience. She is closely involved with developing and introducing genomic testing in prenatal diagnosis. She is local principal investigator for several NIHR funded studies on new genetic and genomic prenatal testing in collaboration with University College London and Great Ormond Street Hospital. She is a co-investigator on the NIHR approved study Optimising EXome PREnatal Sequencing Services (EXPRESS) to evaluate the new fetal exome sequencing service introduced by the NHS Genomic Medicine Service. She is a contributing author on recent publications on fetal exome sequencing.<\/p>",
+            "speaker_content_color": "#3d3131",
+            "speaker_img": "shopify:\/\/shop_images\/Dagmar_Tapon.png",
+            "img_second": false
+          }
+        },
+        "speaker_eimrXy": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "",
+            "speaker_id": "",
+            "block_bg_color": "#ea5e30",
+            "speaker_name": "",
+            "speaker_name_color": "#ffffff",
+            "speaker_subtext": "",
+            "speaker_subtxt_color": "#ffffff",
+            "speaker_content": "",
+            "speaker_content_color": "#ffffff",
+            "img_second": false
+          }
+        },
+        "speaker_UQyUKy": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "fetal medicine",
+            "speaker_id": "",
+            "block_bg_color": "#f8c1b1",
+            "speaker_name": "Professor Mark Kilby",
+            "speaker_name_color": "#5c4545",
+            "speaker_subtext": "DSc MD FRCOG FRCPI. Professor of Fetal Medicine",
+            "speaker_subtxt_color": "#845454",
+            "speaker_content": "<p>Mark Kilby is Emeritus Dame Hilda Lloyd Professor of Fetal Medicine at the University of Birmingham and Consultant in Fetal Medicine at Birmingham Women's and Children's Foundation Trust. He is working as Principal Senior Clinical Scientist at the Medical Research Group, Cambridge, Illumina UK, until April 2024.<\/p><p>He was Lead Clinician in Fetal Medicine (1997-2022) at Birmingham Women’s, focusing upon Fetal Medicine and Therapy.  He established their joint Fetal Medicine Genetics Clinic in 2003 and was a PI on studies investigating the prenatal use of chromosomal microarray and exome sequencing (through the PAGE study), being involved in the establishment of the R21 pathway for NHS E.<\/p><p>He is a past WM representative for the Royal College of Obstetricians & Gynaecologists' Council (2011-2017) and President of British Maternal Fetal Medicine Society (2011-2014). He was Chairman and Senior Topic Advisor for the NICE Guidelines on Twin and Triplet Pregnancies (NICE 2011 and NG137, 2019). He is a co-author of the RCOG Green Top Guidelines for the management of Monochorionic Twins (2008 and 2016), which he is presently updating (2024).  He is also an author of the RCOG Green Top Guideline for the prenatal use of cffDNA testing (to be published in 2024).<\/p><p>He has published extensively on many areas relating to fetal medicine and therapy.  In total, he has published 376 original peer-reviewed papers (26309 citations): h-index of 86; i10 index of 294, an RG score of 68.1, and numerous books\/chapters, including <em>Fetal Therapy<\/em> : Scientific Basis and Appraisal of Clinical Practice (2nd Edition, Cambridge University Press, UK, 2019).<\/p>",
+            "speaker_content_color": "#3d3131",
+            "speaker_img": "shopify:\/\/shop_images\/Mark_Kilby.jpg",
+            "img_second": true
+          }
+        },
+        "speaker_dXRd8y": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "fetal medicine",
+            "speaker_id": "",
+            "block_bg_color": "#f8c1b1",
+            "speaker_name": "Miss Marie-Klaire Farrugia",
+            "speaker_name_color": "#5c4545",
+            "speaker_subtext": "Consultant Paediatric Urologist and Service Lead for Paediatric Surgery",
+            "speaker_subtxt_color": "#845454",
+            "speaker_content": "<p>Marie-Klaire Farrugia MD MD(Res) FRCSEd ( Paed.Surg) is a Consultant Paediatric Urologist and Clinical Lead for Paediatric Surgery at the Chelsea and Westminster and Imperial College Hospitals; and Honorary Senior Lecturer, Imperial College London. Miss Farrugia completed her Paediatric Surgery, and subsequently, Paediatric Urology fellowship, training in London, Oxford and Southampton. She obtained a postgraduate doctorate from the University of London for her research into the development of the fetal kidney and bladder, and in-utero urodynamics, in an ovine model of fetal bladder outlet obstruction. <\/p><p>She was awarded a joint American Academy of Paediatrics and European Society for Paediatric Urology travelling fellowship in 2010, extending her experience to the Boston Children and Johns Hopkins Hospitals. Her clinical and academic interests include fetal urology, vesicoureteric reflux, megaureter and PUV; she is amongst the first paediatric robotic surgeons in the UK. Miss Farrugia is the senior editor for the Fetal and Perinatal section of the Journal of Paediatric Urology, and previous executive committee member of the Society for Fetal Urology. She has published over 50 publications including peer-reviewed articles, educational modules and book chapters.<\/p>",
+            "speaker_content_color": "#3d3131",
+            "img_second": false
+          }
+        },
+        "speaker_8RKVeK": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "fetal medicine",
+            "speaker_id": "",
+            "block_bg_color": "#f8c1b1",
+            "speaker_name": "Professor Christoph Berg",
+            "speaker_name_color": "#5c4545",
+            "speaker_subtext": "Head of Prenatal Medicine, Gynaecological Sonography and Fetal Surgery",
+            "speaker_subtxt_color": "#845454",
+            "speaker_content": "<p>C. Berg received his medical degree in 1997 from the Ludwig-Maximilians University in München. He did his residency at the University of Lübeck under the administration of Professor Klaus Diedrich. In 2002 he joined the University of Bonn as Consultant in Obstetrics and Gynecology under the administration of Professor Ulrich Gembruch. In 2010 he became head of the Division of Prenatal Medicine at the University of Köln under the administration of Professor Peter Mallmann and simultaneously head of the Division of Fetal Surgery at the University of Bonn until 2021.<\/p><p>C. Berg has made substantial contributions to the medical literature in the areas of prenatal diagnosis of congenital heart defects, rare congenital malformation syndromes, multiple gestations, first-trimester diagnosis of fetal anomalies, diagnosis and monitoring of fetal growth restriction and fetal interventions. <\/p><p>Under his guidance, the already well-renowned Division of Fetal Surgery at the University of Bonn has evolved to one of the leading institutions for intrauterine therapy in Germany. In 2021 the Division migrated to the neighbouring University of Cologne. The spectrum of challenging interventions includes among others intrauterine transfusion, shunting, valvuloplasty, laser therapy of twin-to-twin transfusion syndrome, minimally invasive fetal surgery and transplacental treatment of arrhythmias. C. Berg is one of the principle investigators of the international TOTAL-trial (Tracheal Occlusion To Accelerate Lung Growth).<\/p>",
+            "speaker_content_color": "#3d3131",
+            "img_second": true
+          }
+        },
+        "speaker_DkKLg8": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "fetal medicine",
+            "speaker_id": "",
+            "block_bg_color": "#f8c1b1",
+            "speaker_name": "Dr Nigel Basheer",
+            "speaker_name_color": "#5c4545",
+            "speaker_subtext": "Consultant Neonatal Neurologist",
+            "speaker_subtxt_color": "#845454",
+            "speaker_content": "",
+            "speaker_content_color": "#ffffff",
+            "img_second": false
+          }
+        },
+        "speaker_4fKhMy": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "fetal medicine",
+            "speaker_id": "",
+            "block_bg_color": "#f8c1b1",
+            "speaker_name": "Professor Torbjørn Eggebø",
+            "speaker_name_color": "#5c4545",
+            "speaker_subtext": "Professor of Obstetrics",
+            "speaker_subtxt_color": "#845454",
+            "speaker_content": "<p>Torbjørn M. Eggebø is professor emeritus at the Norwegian University of Science and Technology and consultant at Stavanger University Hospital, Norway.  The research from his group focuses on the use of ultrasound during active labour and he defended a thesis in this topic in 2009. He has continued this research and supervised several phd candidates. His goal is to implement the use of ultrasound as standard care in labour wards. <\/p><p>His research also includes publications related to foetal malformations, interventions during labour, postpartum haemorrhage, anal sphincter ruptures, management of prolonged pregnancies and simulation training in complicated deliveries. He was a member of the MSF team (Doctors without Borders) in Bo, Sierra Leone in 2008 and 2009 and has participated in the outreach team of the International Society of Ultrasound in Obstetrics and Gynaecology.<\/p>",
+            "speaker_content_color": "#3d3131",
+            "speaker_img": "shopify:\/\/shop_images\/Eggebo_Torbjorn_Moe.jpg",
+            "img_second": true
+          }
+        },
+        "speaker_RLwtgY": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "fetal medicine",
+            "speaker_id": "",
+            "block_bg_color": "#f8c1b1",
+            "speaker_name": "Miss Sana Usman",
+            "speaker_name_color": "#5c4545",
+            "speaker_subtext": "Consultant Obstetrician and Subspecialist in Maternal Fetal Medicine",
+            "speaker_subtxt_color": "#845454",
+            "speaker_content": "<p>Sana is a Consultant Obstetrician and Maternal Fetal Medicine Subspecialist at City Hospital, Birmingham. She is also an Honorary Consultant at Imperial College Healthcare NHS Trust. <\/p><p>Sana's PhD focused on “Intrapartum ultrasound in predicting labour outcome” and focused on the acceptability, feasibility of intrapartum ultrasound as well as prediction modelling in the first and second stage of labour. She has actively collaborated with NTNU, KU Leuven and King's College London on parallel studies and statistical methodology. This collaborative work has resulted in over 10 peer reviewed publications and several book chapters and reviews. <\/p><p>As an Honorary Clinical Lecturer,  Sana is co-supervising PhD students at Imperial College London. She is continuing her interest in Intrapartum and Point of Care Ultrasound (POCUS) research through national studies including being a Co-applicant in the awarded NIHR SONO-Breech trial.<\/p>",
+            "speaker_content_color": "#3d3131",
+            "speaker_img": "shopify:\/\/shop_images\/Usman_Sana.jpg",
+            "img_second": false
+          }
+        },
+        "speaker_mNRKg7": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "fetal medicine",
+            "speaker_id": "",
+            "block_bg_color": "#f8c1b1",
+            "speaker_name": "Dr A. Sofia Cerdeira",
+            "speaker_name_color": "#5c4545",
+            "speaker_subtext": "Obstetrician Clinician Scientist",
+            "speaker_subtxt_color": "#845454",
+            "speaker_content": "",
+            "speaker_content_color": "#ffffff",
+            "img_second": true
+          }
+        },
+        "speaker_4rxpAr": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "fetal medicine",
+            "speaker_id": "",
+            "block_bg_color": "#f8c1b1",
+            "speaker_name": "Dr Lin Foo",
+            "speaker_name_color": "#5c4545",
+            "speaker_subtext": "Consultant in Obstetrics and Fetal Medicine",
+            "speaker_subtxt_color": "#845454",
+            "speaker_content": "<p>Lin Foo is a Consultant in Obstetrics and Fetal Medicine in Newcastle and Honorary Research Fellow at Imperial College London.<\/p><p>She completed her post-graduate training in North West London and sub-specialist training in Maternal-Fetal Medicine in Newcastle Upon Tyne.<\/p><p>Her research interests are in fetal origins of adult disease, maternal pre-conception health and fetal neurology. <\/p><p>She was awarded a PhD from the University of London for work on pre-conception maternal haemodynamics and pre-eclampsia\/ fetal growth restriction. She is a member of the International Working Group on Maternal Haemodynamics. She has authored consensus guidelines for arterial and exercise testing in pregnancy and is co-lead on a RCOG Scientific Interest Paper on the management of early on-set pre-eclampsia.<\/p>",
+            "speaker_content_color": "#3d3131",
+            "speaker_img": "shopify:\/\/shop_images\/Lin_Foo.png",
+            "img_second": false
+          }
+        },
+        "speaker_kKn6gm": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "fetal medicine",
+            "speaker_id": "",
+            "block_bg_color": "#f8c1b1",
+            "speaker_name": "Ms Deepa Srinivasan",
+            "speaker_name_color": "#5c4545",
+            "speaker_subtext": "Consultant Obstetrician and Fetal Medicine Lead",
+            "speaker_subtxt_color": "#845454",
+            "speaker_content": "<p>I am a Consultant Obstetrician and Lead for Cerner & Fetal Medicine at London Northwest Hospitals NHS Trust. I have special interest in Placenta Accreta Spectrum (PAS) and Vasa Previa and have published extensively on PAS. Whilst completing my MD with Prof Christoph Lees, we set up the PAS\/AIP pathway at Imperial College NHS Trusts.  I am an Honorary Consultant at ICHT where I organise placenta clinics.<\/p>",
+            "speaker_content_color": "#3d3131",
+            "speaker_img": "shopify:\/\/shop_images\/Deepa_Srinivasan.jpg",
+            "img_second": false
+          }
+        },
+        "speaker_7rrCxi": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "fetal medicine",
+            "speaker_id": "",
+            "block_bg_color": "#f8c1b1",
+            "speaker_name": "Professor Eric Jauniaux",
+            "speaker_name_color": "#5c4545",
+            "speaker_subtext": "Professor in Obstetrics and Fetal Medicine",
+            "speaker_subtxt_color": "#845454",
+            "speaker_content": "<p>Professor Eric Jauniaux, MD, PhD, FRCOG <\/p><p>Professor in Obstetrics and Fetal Medicine, EGA Institute for Women Health, Faculty of Population Health Science, University College London, London, UK. <\/p><p>Eric Jauniaux has worked for over 30 years on placental and fetal development and on the diagnosis and management of placental related-complications of pregnancy. He was awarded the international prize for research in placentology by the International Placental Federations Association (IPFA) and a personal chair at UCL in 2002. <\/p><p>His work on the establishment of the placental circulations in early pregnancy, on the role of oxygen in normal and abnormal placental development, and on the functions of the chorionic cavity and secondary yolk sac has enabled a better understanding of the mechanisms associated with miscarriages and the transfer pathways between the mother and her developing fetus. He is the author\/co-author of over 460 peer-reviewed original articles and has edited\/co-edited 14 books, including Embryonic medicine & therapy with Sir Bob Edwards (Nobel Prize in Medicine 2010). He is currently working on the ultrasound imaging pathophysiology of accreta placentation and the impact of the environment on human pregnancy. <\/p><p>I was the coordinator of the FIGO guidelines on the diagnosis and management of placenta accreta spectrum (PAS) disorders (IJGO Mar 2018) and the lead developer of the RCOG GTG27 on placenta praevia, placenta accreta and vasa praevia (BJOG Jan 2019). In 2006, he co-founded Medical Aid Films (MAF) a UK-registered charity [no 1121578] to provide multi-media programs for education and training in maternal and child health for developing countries (<a href=\"http:\/\/www.medicalaidfilms.org\">www.medicalaidfilms.org).<\/a><\/p>",
+            "speaker_content_color": "#3d3131",
+            "img_second": true
+          }
+        },
+        "speaker_8HJDNx": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "fetal medicine",
+            "speaker_id": "",
+            "block_bg_color": "#f8c1b1",
+            "speaker_name": "Prof Kurt Hecher",
+            "speaker_name_color": "#5c4545",
+            "speaker_subtext": "Professor in Obstetrics and Fetal Medicine",
+            "speaker_subtxt_color": "#845454",
+            "speaker_content": "<p>Awards and other Professional Activities:<\/p><p>1992 Erwin Schrödinger Fellowship, Austrian Science Foundation<\/p><p>1992 Honorary Lecturer in Obstetrics and Gynaecology, King’s College School of Medicine, University of London<\/p><p>1996 Habilitation in Obstetrics and Gynaecology, University of Vienna, Austria<\/p><p>1999 Werner Otto Foundation Award for Clinical Research<\/p><p>2000 Hans L. Geisenhofer Foundation Research Award, Bavarian Society of Obstetrics and Gynaecology<\/p><p>2006 Honorary Member of the ‘Sociedad Chilena de Ultrasonografia en Medicina y Biologia’<\/p><p>2008 Dres. Haackert Foundation Gold Medal Award for Prenatal Medicine<\/p><p>2011 Honorary Member of the Hungarian Society of Ultrasound in OB\/GYN<\/p><p>2011 Corresponding Member of the Chilean Society of OB\/GYN<\/p><p>2012 Pschyrembel – Medal for achievements as a researcher and teacher in obstetrics<\/p><p>2023: Honorary Membership: The Hellenic Society of Maternal – Fetal Medicine<\/p><p>ISUOG (International Society of Ultrasound in Obstetrics and Gynecology)<\/p><p>- President (2006-2008)<\/p><p>- Editor ‘Ultrasound in Obstetrics and Gynaecology’ (2003-2018)<\/p><p>- Deputy Editor-in-Chief (2011-2018)<\/p><p>- Chairman of the 19th World Congress on Ultrasound in O&G (13-17 September 2009, Hamburg)<\/p><p>- Chairman of the 29th World Congress on Ultrasound in O&G (12-16 October 2019, Berlin)<\/p>",
+            "speaker_content_color": "#3d3131",
+            "speaker_img": "shopify:\/\/shop_images\/Hecher_Kurt.jpg",
+            "img_second": false
+          }
+        },
+        "speaker_WJFQmA": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "fetal medicine",
+            "speaker_id": "",
+            "block_bg_color": "#f8c1b1",
+            "speaker_name": "Professor Kypros Nicolaides",
+            "speaker_name_color": "#5c4545",
+            "speaker_subtext": "Professor of Fetal Medicine, Founder and Chairman, The Fetal Medicine Foundation",
+            "speaker_subtxt_color": "#845454",
+            "speaker_content": "<p>Kypros Nicolaides, Professor of Fetal Medicine. Director of the Research Centre for Fetal Medicine of King’s College Hospital and Founder and Chairman of the Fetal Medicine Foundation. He has been honoured with highest awards of excellence from many national and international professional bodies, including the Eardley Holland Gold Medal of the RCOG, International Society Ultrasound in Obstetrics & Gynaecology, National Grand Cross of the Order of Makarios III from the Republic of Cyprus, Gold Cross of The Order of the Phoenix from the Republic of Greece. He is an elected member of the National Academy of Medicine (USA) and the recipient of Honorary Doctorates in Medicine from 14 Universities across the world. He published over 1600 peer-review papers in Scientific Journals.<\/p>",
+            "speaker_content_color": "#3d3131",
+            "speaker_img": "shopify:\/\/shop_images\/kypros_nikolaides.webp",
+            "img_second": true
+          }
+        },
+        "speaker_md9YEd": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "early pregnancy care",
+            "speaker_id": "",
+            "block_bg_color": "#e7d6b1",
+            "speaker_name": "Prof Jan Brosens",
+            "speaker_name_color": "#292525",
+            "speaker_subtext": "Professor of Obstetrics & Gynaecology",
+            "speaker_subtxt_color": "#716363",
+            "speaker_content": "<p>In recent years, my work evolved from more fundamental nuclear receptor research in human endometrium to a focus on the pathological mechanisms underlying recurrent pregnancy loss. My goal is to develop strategies that identify women at risk of recurrent pregnancy loss and to mitigate this risk through interventions that optimise the endometrial environment prior to conception. Although the current focus is on early loss, I am greatly interested in extending this approach and test if endometrial fitness prior to conception can be used to assess the risk of vascular and placental disorders later in pregnancy (i.e. Great Obstetrical Disorders). <\/p><p>To accelerate clinical translation, I joined the University of Warwick in 2011 and, together with Professor Siobhan Quenby, launched the first National Health Service (NHS) Implantation Research Clinic, which now processes over 750 timed endometrial biopsies per annum from patients attending the clinic from across the UK and abroad; making it one of the largest resources of its kind worldwide. I was also instrumental is establishing Tommy’s National Miscarriage Research Centre, launched in April 2016, which brings together excellence in miscarriage research across three leading UK universities (Birmingham, Warwick, and Imperial). The new Tommy's centre now enables 24,000 women per year to access treatment and participate in Tommy’s research studies, including randomised controlled trials based directly on my research findings (SIM and SIMPLANT studies). My emphasis on clinical and translational research will help Dr. Mancy Tong further develop her studies and as her co-mentor, I would be happy to offer her the resources and knowledge at my disposal. Many of the trainees I have mentored have successfully obtained faculty positions and I look forward to helping Dr. Tong achieve independence over the next five years.<\/p>",
+            "speaker_content_color": "#2d2828",
+            "img_second": true
+          }
+        },
+        "speaker_knRmKD": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "",
+            "speaker_id": "early pregnancy care",
+            "block_bg_color": "#e7d6b1",
+            "speaker_name": "Dr Harsha Shah",
+            "speaker_name_color": "#292525",
+            "speaker_subtext": "Clinical Research Fellow",
+            "speaker_subtxt_color": "#716363",
+            "speaker_content": "<p>Dr Harsha Shah is a medical doctor and academic researcher in the field of Obstetrics and Gynaecology. She has recently completed her doctoral research (PhD) at Imperial College London in novel three-dimensional ultrasound imaging in pregnancy for fetal anatomy assessment. Her current research goals are to improve the assessment of fetal anatomy in the first trimester using three-dimensional imaging techniques with embryological correlation. As part of this work, she is the co-founder of an online, open-access ultrasound image library <a href=\"http:\/\/www.3dultrasoundatlas.com\/\">www.3dultrasoundatlas.com<\/a>. Her further appointments include lecturer at Imperial College London on the MSc course: Reproductive and Developmental Biology, Trainee Representative for the Association of Early Pregnancy Units and former Royal College of Obstetricians and Gynaecologists Junior Careers Advisor and Chair of the North West Thames Obstetrics and Gynaecology Trainees’ Committee.<\/p>",
+            "speaker_content_color": "#2d2828",
+            "img_second": false
+          }
+        },
+        "speaker_h6KK3a": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "early pregnancy care",
+            "speaker_id": "",
+            "block_bg_color": "#e7d6b1",
+            "speaker_name": "Dr Joshua Odendaal",
+            "speaker_name_color": "#292525",
+            "speaker_subtext": "NIHR Clinical Lecturer",
+            "speaker_subtxt_color": "#716363",
+            "speaker_content": "<p>Joshua is an NIHR Clinical Lecturer at the University of Warwick. He has undertaken a PhD in the relationship between chronic endometritis and recurrent miscarriage. He has numerous publications in reproductive health and obstetrics. He is an associate editor of EJOG and an RCOG e-learning editor for early pregnancy.<\/p>",
+            "speaker_content_color": "#2d2828",
+            "speaker_img": "shopify:\/\/shop_images\/JOdendaal.jpg",
+            "img_second": false
+          }
+        },
+        "speaker_NqEj9c": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "early pregnancy care",
+            "speaker_id": "",
+            "block_bg_color": "#e7d6b1",
+            "speaker_name": "Dr Harsha Shah",
+            "speaker_name_color": "#292525",
+            "speaker_subtext": "Clinical Research Fellow",
+            "speaker_subtxt_color": "#716363",
+            "speaker_content": "",
+            "speaker_content_color": "#2d2828",
+            "img_second": false
+          }
+        },
+        "speaker_A3WRF8": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "early pregnancy care",
+            "speaker_id": "",
+            "block_bg_color": "#e7d6b1",
+            "speaker_name": "Dr Nicole Burger",
+            "speaker_name_color": "#292525",
+            "speaker_subtext": "Dept of Obstetrics & Gynaecology",
+            "speaker_subtxt_color": "#716363",
+            "speaker_content": "<p>Nicole Burger works as a gynecologist at the department of Benign Gynaecology at the Amsterdam University Medical Center in Amsterdam, the Netherlands. This is a tertiary referral center for benign uterine disorders. She is specialized in (innovative) ultrasound imaging, non-tubal ectopic pregnancies, laparoscopic abdominal cerclage and pediatric gynecology. She is guiding several PhD students in relation to these topics.<\/p>",
+            "speaker_content_color": "#2d2828",
+            "speaker_img": "shopify:\/\/shop_images\/Nicole_Burger_photo.jpg",
+            "img_second": false
+          }
+        },
+        "speaker_cYBRDX": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "early pregnancy care",
+            "speaker_id": "early pregnancy care",
+            "block_bg_color": "#e7d6b1",
+            "speaker_name": "Ms Maya Al-Memar",
+            "speaker_name_color": "#292525",
+            "speaker_subtext": "Consultant Gynaecologist",
+            "speaker_subtxt_color": "#716363",
+            "speaker_content": "<p>Miss Maya Al-Memar is a Consultant Gynaecologist at Imperial College NHS Healthcare Trust, with specialist clinical interests in complex benign gynaecology, acute diagnostic services including early pregnancy and acute gynaecology, rapid access for suspected gynaecological cancer, and paediatric & adolescent gynaecology.<\/p><p>She completed her postgraduate training in Obstetrics and Gynaecology in North-West London. She graduated from Imperial College School of Medicine with first class honours in 2007, where she also completed her PhD and is now an honorary clinical lecturer. She is widely published in peer-reviewed journals. She currently has on-going research projects in the fields of early pregnancy, miscarriage, ovarian cysts and use of ultrasound to improve diagnosis of ovarian masses.<\/p>",
+            "speaker_content_color": "#2d2828",
+            "speaker_img": "shopify:\/\/shop_images\/Maya_Al-Memar.jpg",
+            "img_second": true
+          }
+        },
+        "speaker_XpzBpm": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "early pregnancy care",
+            "speaker_id": "",
+            "block_bg_color": "#e7d6b1",
+            "speaker_name": "Prof Tom Bourne",
+            "speaker_name_color": "#292525",
+            "speaker_subtext": "Professor of Obstetrics & Gynaecology",
+            "speaker_subtxt_color": "#716363",
+            "speaker_content": "<p>Professor Tom Bourne is Chair in Gynaecology at Imperial College London and Consultant Gynecologist at Queen Charlotte’s and Chelsea Hospital London. He is visiting Professor and Consultant at KU Leuven in Belgium. He is a founder and sits on the steering committee of the International Ovarian Tumor Analysis Group (IOTA) and is director of early pregnancy research at the Tommy’s National Centre for Miscarriage care in the UK. He is an honorary fellow of the American Institute of Ultrasound in Medicine (AIUM) and an honorary member of the Australasian Society for Ultrasound in Medicine (ASUM). He is immediate past President of the UK Association of Early Pregnancy Units (AEPU) and a Trustee of the Ectopic Pregnancy Trust. He is the ISUOG immediate Past President (2020 - 2022). Professor Bourne is an authority on early pregnancy complications, emergency gynecology and gynaecological ultrasonography. He has also worked closely with the BMA and RCOG on research relating to the psychological impact of medical accidents and complaints on physicians as well as burnout. He has edited seven books and published over 430 papers; his h-index is 99 (Google scholar).<\/p>",
+            "speaker_content_color": "#2d2828",
+            "speaker_img": "shopify:\/\/shop_images\/Prof_Tom_Bourne.jpg",
+            "img_second": false
+          }
+        },
+        "speaker_HUw3yt": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "early pregnancy care",
+            "speaker_id": "",
+            "block_bg_color": "#e7d6b1",
+            "speaker_name": "Prof Thierry Van den Bosch",
+            "speaker_name_color": "#292525",
+            "speaker_subtext": "Consultant Gynaecologist",
+            "speaker_subtxt_color": "#716363",
+            "speaker_content": "<p>Thierry Van den Bosch completed his training at KU Leuven (Belgium) and the University of Pretoria (South Africa), worked as consultant at the Tygerberg Hospital (South-Africa). He later moved back to Belgium and became head of department at the regional hospital RZ Tienen. He currently works at the University Hospital Leuven, KU Leuven, and is Senior Clinical Investigator of the Scientific Research Fund (FWO) Flanders. <\/p>",
+            "speaker_content_color": "#2d2828",
+            "speaker_img": "shopify:\/\/shop_images\/Thierry_van_den_Bosch.png",
+            "img_second": true
+          }
+        },
+        "speaker_TqkaBB": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "early pregnancy care",
+            "speaker_id": "",
+            "block_bg_color": "#e7d6b1",
+            "speaker_name": "Dr Alex Novak",
+            "speaker_name_color": "#292525",
+            "speaker_subtext": "Snr Clinical Research Fellow in Gynaecology",
+            "speaker_subtxt_color": "#716363",
+            "speaker_content": "<p>Dr Alex Novak has taken time out of clinical training to Focus on Gynaecological Ultrasound, concentrating on Point of care Ultrasound and Machine Learning.<\/p>",
+            "speaker_content_color": "#2d2828",
+            "img_second": false
+          }
+        },
+        "speaker_DHBc6R": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "early pregnancy care",
+            "speaker_id": "",
+            "block_bg_color": "#e7d6b1",
+            "speaker_name": "Ms Tejal Amin",
+            "speaker_name_color": "#292525",
+            "speaker_subtext": "Consultant Gynaecologist",
+            "speaker_subtxt_color": "#716363",
+            "speaker_content": "<p>Ms Tejal Amin is a Consultant Gynaecologist at Imperial College Healthcare NHS Trust. Her main areas of expertise are early pregnancy and gynaecological ultrasound, emergency gynaecology and benign gynaecological surgery, including outpatient procedures. Miss Amin's research focussed on the pelvic venous circulation, pelvic venous thrombosis and pelvic pain, which has been presented nationally and internationally. Miss Amin has also published research articles on the ultrasound diagnosis of intrauterine adhesions, endometrial pathology and early pregnancy complications.  She continues to be actively involved in research, ultrasound education and enjoys lecturing on postgraduate training courses and conferences.<\/p>",
+            "speaker_content_color": "#2d2828",
+            "speaker_img": "shopify:\/\/shop_images\/Tejal_Amin.jpg",
+            "img_second": false
+          }
+        },
+        "speaker_mdTyit": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "early pregnancy care",
+            "speaker_id": "",
+            "block_bg_color": "#e7d6b1",
+            "speaker_name": "Dr Nina Parker",
+            "speaker_name_color": "#292525",
+            "speaker_subtext": "Snr Clinical Fellow in Gynaecology and Early Pregnancy",
+            "speaker_subtxt_color": "#716363",
+            "speaker_content": "<p>Dr Nina Parker is a clinical research fellow at Imperial College London and a specialist registrar in Obstetrics and Gynaecology. Nina is a PhD candidate with a research focus on miscarriage, she has a particular interest in psychological impact of early pregnancy loss and how this can be targeted to improve care for women and their partners.<\/p>",
+            "speaker_content_color": "#2d2828",
+            "img_second": false
+          }
+        },
+        "speaker_fxPfEj": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "early pregnancy care",
+            "speaker_id": "",
+            "block_bg_color": "#e7d6b1",
+            "speaker_name": "Dr Chris Kyriacou",
+            "speaker_name_color": "#292525",
+            "speaker_subtext": "PhD Research Fellow",
+            "speaker_subtxt_color": "#716363",
+            "speaker_content": "<p>Biography: Chris Kyriacou is an Obstetrics and Gynaecology Specialist Registrar who has completed his PhD at Imperial College London, UK, optimizing and investigating biomarkers in the prediction of pregnancy of unknown location outcome and ectopic pregnancy diagnosis. He is an NHS Clinical Entrepreneur and a keen advocate for education, contributing as a member of the International Society of Ultrasound in Obstetrics and Gynecology education task force, and representing trainees on the Association of Early Pregnancy Units executive committee.<\/p>",
+            "speaker_content_color": "#2d2828",
+            "img_second": true
+          }
+        },
+        "speaker_zQkAeR": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "early pregnancy care",
+            "speaker_id": "",
+            "block_bg_color": "#e7d6b1",
+            "speaker_name": "Dr Melanie Nana",
+            "speaker_name_color": "#292525",
+            "speaker_subtext": "NIHR Clinical Research Fellow and Obstetric Medicine Registrar",
+            "speaker_subtxt_color": "#716363",
+            "speaker_content": "<p>Melanie Nana is a diabetes and endocrinology SpR and NIHR Research Training Fellow currently studying the mechanisms underpinning the neurocognitive and metabolic consequences of children born to women with severe Hyperemesis Gravidarum at King’s College London, supervised by Professor Catherine Williamson.<\/p><p>In 2020 she undertook the obstetric medicine fellowship at St Thomas’ Hospital where she was taught obstetric medicine by Professor Catherine Nelson-Piercy. During that time she completed the RCP credential in obstetric medicine. <\/p><p>Melanie has several publications relating to obstetric medicine including the largest study exploring the lived-experience of women with hyperemesis gravidarum, a BMJ ‘State of the Art Review’ on COVID-19 in pregnancy and work relating to antiplatelet use in pregnancy. She has published chapters on COVID-19 in pregnancy in the Oxford Textbook of Medicine and pituitary and adrenal disease in pregnancy in EndoText. She is a co-author of the European Guideline for Liver Disease, the RCOG ‘The management of nausea and vomiting of pregnancy and hyperemesis gravidarum’ guidelines and developed the management flow charts for the RCOG ‘COVID-19 in pregnancy’.<\/p>",
+            "speaker_content_color": "#2d2828",
+            "img_second": false
+          }
+        },
+        "speaker_KLNH8R": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "early pregnancy care",
+            "speaker_id": "",
+            "block_bg_color": "#e7d6b1",
+            "speaker_name": "Ms Emma Kirk",
+            "speaker_name_color": "#292525",
+            "speaker_subtext": "Consultant Obstetrician and Gynaecologist",
+            "speaker_subtxt_color": "#716363",
+            "speaker_content": "<p>Emma is a Consultant in Obstetrics and Gynaecology at the Royal Free Hospital, London.   She is the clinical lead for Early Pregnancy and Emergency Gynaecology. She has published on many aspects of early pregnancy and has published a book on scanning in early pregnancy. Her special interests are pregnancies of unknown location and ectopic pregnancies.  <\/p><p>She organises the RCOG ATSM course in Early Pregnancy and Acute Gynaecology, regularly lectures both nationally and internationally,  is an executive committee member of the Association of Early Pregnancy Units and is a past coordinator of the European Society of Human Reproduction and Embryology Special Interest Group in Implantation and Early Pregnancy. <\/p>",
+            "speaker_content_color": "#2d2828",
+            "img_second": false
+          }
+        },
+        "speaker_6GHTi9": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "early pregnancy care",
+            "speaker_id": "",
+            "block_bg_color": "#e7d6b1",
+            "speaker_name": "Ms Katy Lindemann",
+            "speaker_name_color": "#292525",
+            "speaker_subtext": "Writer and Patient Advocate",
+            "speaker_subtxt_color": "#716363",
+            "speaker_content": "<p>Katy Lindemann is a writer and patient advocate, in addition to her day job as a strategy consultant.<br\/><br\/>Following her own (unsuccessful) infertility journey of IVF and miscarriages, she now writes about infertility and pregnancy loss, and advocates for a better understanding of the patient perspective of fertility issues.<\/p><p> This talk will explore the experience of early pregnancy loss from the patient perspective. It will address how to talk to patients with empathy, respect and compassion, providing practical insight into the seemingly small things that can make a big difference.<\/p>",
+            "speaker_content_color": "#2d2828",
+            "speaker_img": "shopify:\/\/shop_images\/Katy_Lindemann.png",
+            "img_second": false
+          }
+        },
+        "speaker_UaHaHC": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "gynaecology",
+            "speaker_id": "",
+            "block_bg_color": "#deb9ce",
+            "speaker_name": "Prof Dirk Timmerman",
+            "speaker_name_color": "#604444",
+            "speaker_subtext": "Professor of Obstetrics & Gynaecology",
+            "speaker_subtxt_color": "#735151",
+            "speaker_content": "<p>Dirk Timmerman is full professor and chairman Obstetrics and Gynecology at KU Leuven, Belgium; Senior Clinical Investigator of the Scientific Research Fund (FWO) Flanders. Visiting Professor Imperial College London and visiting Professor Università Cattolica del Sacro Cuore Rome.<\/p><p>He is co-ordinator of the International Ovarian Tumor Analysis (IOTA) collaborative group including more than 60 centers for ovarian cancer diagnosis throughout the world. The IOTA group aims to develop new algorithms and liquid biopsies to diagnose and detect ovarian cancer and for optimal care of adnexal tumors (included patients n&gt;34,000). <\/p><p>Board member and past chair scientific committee International Society of Ultrasound in Obstetrics and Gynecology (ISUOG).<\/p><p>He published more than 500 papers in international scientific journals. H-index 85 (Google Scholar).<\/p>",
+            "speaker_content_color": "#504242",
+            "speaker_img": "shopify:\/\/shop_images\/Dirk_Timmerman.jpg",
+            "img_second": false
+          }
+        },
+        "speaker_mLPfP8": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "gynaecology",
+            "speaker_id": "",
+            "block_bg_color": "#deb9ce",
+            "speaker_name": "Prof Tom Bourne",
+            "speaker_name_color": "#604444",
+            "speaker_subtext": "Professor of Obstetrics & Gynaecology",
+            "speaker_subtxt_color": "#735151",
+            "speaker_content": "<p>Professor Tom Bourne is Chair in Gynaecology at Imperial College London and Consultant Gynecologist at Queen Charlotte’s and Chelsea Hospital London. He is visiting Professor and Consultant at KU Leuven in Belgium. He is a founder and sits on the steering committee of the International Ovarian Tumor Analysis Group (IOTA) and is director of early pregnancy research at the Tommy’s National Centre for Miscarriage care in the UK. He is an honorary fellow of the American Institute of Ultrasound in Medicine (AIUM) and an honorary member of the Australasian Society for Ultrasound in Medicine (ASUM). He is immediate past President of the UK Association of Early Pregnancy Units (AEPU) and a Trustee of the Ectopic Pregnancy Trust. He is the ISUOG immediate Past President (2020 - 2022). Professor Bourne is an authority on early pregnancy complications, emergency gynecology and gynaecological ultrasonography. He has also worked closely with the BMA and RCOG on research relating to the psychological impact of medical accidents and complaints on physicians as well as burnout. He has edited seven books and published over 430 papers; his h-index is 99 (Google scholar).<\/p>",
+            "speaker_content_color": "#504242",
+            "speaker_img": "shopify:\/\/shop_images\/Prof_Tom_Bourne.jpg",
+            "img_second": true
+          }
+        },
+        "speaker_fJBGEg": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "gynaecology",
+            "speaker_id": "",
+            "block_bg_color": "#deb9ce",
+            "speaker_name": "Dr Jen Barcroft",
+            "speaker_name_color": "#604444",
+            "speaker_subtext": "Ph.D. Fellow",
+            "speaker_subtxt_color": "#735151",
+            "speaker_content": "<p>Dr Jen Barcroft is a clinical research fellow and specialist Obstetrics and Gynaecology registrar based at Imperial College Healthcare NHS Trust with clinical interests in gynaecological ultrasound within early pregnancy, rapid access, and reproductive medicine. She is passionate about education and improving access to gynaecological ultrasound in clinical training. <\/p><p>She graduated from the University of Edinburgh in 2013 with a Bachelor of Medicine, Bachelor of Surgery and Bachelor in Medical Sciences in Reproductive Biology (First Class). She completed her membership examinations for the Royal College of Obstetricians and Gynaecologist in 2019 and was awarded the prize medal. Alongside clinical training, she is currently doing a PhD at Imperial College London, exploring the applications of machine learning within gynaecology diagnostics. Her research is focused on the development of machine learning-based models to support the classification of adnexal masses on ultrasound and the use of online search data to identify individuals at risk of disease<\/p>",
+            "speaker_content_color": "#504242",
+            "speaker_img": "shopify:\/\/shop_images\/Barcroft_Jen.jpg",
+            "img_second": false
+          }
+        },
+        "speaker_mc6C8a": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "gynaecology",
+            "speaker_id": "",
+            "block_bg_color": "#deb9ce",
+            "speaker_name": "Prof Wouter Froyman",
+            "speaker_name_color": "#604444",
+            "speaker_subtext": "Asst Professor and Consultant Gynaecologist",
+            "speaker_subtxt_color": "#735151",
+            "speaker_content": "<p>Wouter Froyman graduated as a Medical Doctor at KU Leuven in 2011. He finished his specialization in Obstetrics and Gynecology in 2018 and has since then worked as a consultant in this department at the University Hospitals Leuven. <\/p><p>His main clinical activities and research are related to gynecological ultrasound and treatment of benign gynecological pathology, with special interest in minimally invasive and robot-assisted surgery.<\/p><p>In 2019, he obtained his PhD degree in Biomedical Sciences, with a doctoral thesis entitled \"Progress in differentiation and clinical management of adnexal masses\".  In 2020, he was appointed associate professor at KU Leuven. He is also a steering committee member of the International Ovarian Tumor Analysis (IOTA) studies.<\/p>",
+            "speaker_content_color": "#504242",
+            "img_second": true
+          }
+        },
+        "speaker_LrzhcP": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "gynaecology",
+            "speaker_id": "",
+            "block_bg_color": "#deb9ce",
+            "speaker_name": "Prof Thierry Van den Bosch",
+            "speaker_name_color": "#604444",
+            "speaker_subtext": "Asst professor and Consultant Gynaecologist",
+            "speaker_subtxt_color": "#735151",
+            "speaker_content": "<p>Thierry Van den Bosch completed his training at KU Leuven (Belgium) and the University of Pretoria (South Africa), worked as consultant at the Tygerberg Hospital (South-Africa). He later moved back to Belgium and became head of department at the regional hospital RZ Tienen. He currently works at the University Hospital Leuven, KU Leuven, and is Senior Clinical Investigator of the Scientific Research Fund (FWO) Flanders. <\/p>",
+            "speaker_content_color": "#504242",
+            "speaker_img": "shopify:\/\/shop_images\/Thierry_van_den_Bosch.png",
+            "img_second": false
+          }
+        },
+        "speaker_dcU8bG": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "gynaecology",
+            "speaker_id": "",
+            "block_bg_color": "#deb9ce",
+            "speaker_name": "Prof Antonia Testa",
+            "speaker_name_color": "#604444",
+            "speaker_subtext": "Professor of Gynaecology",
+            "speaker_subtxt_color": "#735151",
+            "speaker_content": "<p>Prof Antonia Testa is Scientific Director of the Centre for Ultrasound in Gynecological Oncology of the Agostino Gemelli University Hospital Foundation and Associate Professor of the Institute of Obstetric and Gynaecological Clinics at Università Cattolica del Sacro Cuore. She is Vice President of SIEOG (Italian Society of Ultrasound in Obstetrics and Gynecology). She has been member of ISUOG board. She is member of IOTA (International Ovarian Tumor Analysis) steering committee.<\/p>",
+            "speaker_content_color": "#504242",
+            "speaker_img": "shopify:\/\/shop_images\/Antonia_Testa.jpg",
+            "img_second": true
+          }
+        },
+        "speaker_PKC3Hp": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "gynaecology",
+            "speaker_id": "",
+            "block_bg_color": "#deb9ce",
+            "speaker_name": "Prof George Condous",
+            "speaker_name_color": "#604444",
+            "speaker_subtext": "",
+            "speaker_subtxt_color": "#ffffff",
+            "speaker_content": "<p>George Condous is gynaecological surgeon sonologist in the field of endometriosis with appointments at Nepean Hospital. He is an Associate Professor of Gynaecology at Sydney Medical School Nepean, University of Sydney, with special interests in:<\/p><p>1. gynaecological ultrasound imaging (EFSUMB level 3 equivalent) and <\/p><p>2. minimally invasive gynaecological surgery (AGES level 6 equivalent). <\/p><p>He is an ambassador for the World Endometriosis Society (WES). <\/p><p>He is also Head of Discipline of Obstetrics and Gynaecology at Sydney Medical School Nepean, University of Sydney. <\/p><p>He is the current Vice President of the World Federation of Ultrasound in Medicine and Biology (WFUMB).<\/p><p>He is current Chair of the Scientific Committee for the International Society of Ultrasound in Obstetrics and Gynecology (ISUOG).<\/p><p>He is current Australasian Gynaecological Endoscopy and Surgery (AGES) Society Board member. <\/p><p>He is past president of the Australasian Society of Ultrasound in Medicine (ASUM). <\/p><p>He was the Co-Chair for the ISUOG World Congresses in Sydney 2013 and Singapore 2017 as well as the Chair for the WFUMB World Congress in Melbourne 2019.<\/p><p>George is recognised internationally for his work in endometriosis and early pregnancy, he has published more than 250 peer reviewed papers and published five books including ‘How to perform ultrasonography in Endometriosis’.<\/p>",
+            "speaker_content_color": "#504242",
+            "img_second": false
+          }
+        },
+        "speaker_iUzkBF": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "gynaecology",
+            "speaker_id": "",
+            "block_bg_color": "#deb9ce",
+            "speaker_name": "Professor Nick Raine-Fenning",
+            "speaker_name_color": "#604444",
+            "speaker_subtext": "Clinical Associate Professor & Reader in Reproductive Medicine and Surgery",
+            "speaker_subtxt_color": "#735151",
+            "speaker_content": "",
+            "speaker_content_color": "#ffffff",
+            "img_second": true
+          }
+        },
+        "speaker_r6wwk4": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "gynaecology",
+            "speaker_id": "",
+            "block_bg_color": "#deb9ce",
+            "speaker_name": "Prof Judith Huirne",
+            "speaker_name_color": "#604444",
+            "speaker_subtext": "Professor of Obstetrics & Gynaecology",
+            "speaker_subtxt_color": "#735151",
+            "speaker_content": "<p>Judith Huirne is head of Department of Gynaecology, Amsterdam. This is a tertiary referral center for uterine disorders.  She is specialised in innovative imaging and minimal invasive surgery in gynaecology. She founded the international niche taskforce group and the special interest group for uterine disorders and niches of the ESGE.  She started the first study on uterine niche in 2007. She published more than 50 papers on niches in the uterine CS scar) and is currently guiding 48 PhD students.<\/p>",
+            "speaker_content_color": "#504242",
+            "img_second": false
+          }
+        },
+        "speaker_FJt6CW": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "gynaecology",
+            "speaker_id": "",
+            "block_bg_color": "#deb9ce",
+            "speaker_name": "Ms Maya Al-Memar",
+            "speaker_name_color": "#604444",
+            "speaker_subtext": "Consultant Gynaecologist",
+            "speaker_subtxt_color": "#735151",
+            "speaker_content": "<p>Miss Maya Al-Memar is a Consultant Gynaecologist at Imperial College NHS Healthcare Trust, with specialist clinical interests in complex benign gynaecology, acute diagnostic services including early pregnancy and acute gynaecology, rapid access for suspected gynaecological cancer, and paediatric & adolescent gynaecology.<\/p><p>She completed her postgraduate training in Obstetrics and Gynaecology in North-West London. She graduated from Imperial College School of Medicine with first class honours in 2007, where she also completed her PhD and is now an honorary clinical lecturer. She is widely published in peer-reviewed journals. She currently has on-going research projects in the fields of early pregnancy, miscarriage, ovarian cysts and use of ultrasound to improve diagnosis of ovarian masses.<\/p>",
+            "speaker_content_color": "#504242",
+            "speaker_img": "shopify:\/\/shop_images\/Maya_Al-Memar.jpg",
+            "img_second": true
+          }
+        },
+        "speaker_LLD8GB": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "gynaecology",
+            "speaker_id": "",
+            "block_bg_color": "#deb9ce",
+            "speaker_name": "Ms Chiara Landolfo",
+            "speaker_name_color": "#604444",
+            "speaker_subtext": "Consultant Gynaecologist",
+            "speaker_subtxt_color": "#735151",
+            "speaker_content": "<p>Chiara Landolfo, MD, PhD, is a Gynaecologist Oncologist Consultant at Imperial College London. She completed her training in Bologna (Italy), combining her education in Brussels and Leuven (Belgium). With a special interest in gynaecologic ultrasonography, she joined the IOTA group. She worked together with Prof D. Timmerman at KU Leuven, Prof T. Bourne at Imperial College London and Prof A. Testa at Gemelli Hospital in Rome. She is active in research on gynaecological ultrasound and translational analyses. She is member of ISUOG, SIEOG and ESGO. Chiara is currently member of the ISUOG Clinical Standards Committee and of the ISUOG Task Force for the Basic Training in Gynaecology. She also collaborates to VISUOG project, and worked as a member of the ISUOG “Next Generation group”. She regularly takes part in education, scientific presentations and courses on gynaecologic ultrasound at national and international conferences.<\/p>",
+            "speaker_content_color": "#504242",
+            "img_second": false
+          }
+        },
+        "speaker_wBQicw": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "gynaecology",
+            "speaker_id": "",
+            "block_bg_color": "#deb9ce",
+            "speaker_name": "Mr Jospeh Yazbek",
+            "speaker_name_color": "#604444",
+            "speaker_subtext": "Consultant Gynaecological Oncologist",
+            "speaker_subtxt_color": "#735151",
+            "speaker_content": "",
+            "speaker_content_color": "#504242",
+            "img_second": false
+          }
+        },
+        "speaker_CUXRWY": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "gynaecology",
+            "speaker_id": "",
+            "block_bg_color": "#deb9ce",
+            "speaker_name": "Mr Sotirios Saravelos",
+            "speaker_name_color": "#604444",
+            "speaker_subtext": "Consultant Gynaecologist and Subspecialist",
+            "speaker_subtxt_color": "#735151",
+            "speaker_content": "<p>Sotirios is a Consultant Gynaecologist and Accredited Subspecialist in Reproductive Medicine and Surgery at the Trust. He also holds an Honorary Clinical Lectureship at Imperial College London. <\/p><p>Sotirios has unique clinical and research experience from working within several different IVF units across the UK, Europe, and Hong Kong. He has authored over 50 peer-reviewed publications and several book chapters in the field of fertility and IVF. He has also co-developed guidelines on topics such as recurrent miscarriage and congenital uterine anomalies for the Royal College of Obstetricians & Gynaecologists (RCOG), the European Society of Human Reproduction & Embryology (ESHRE) and the European Society for Gynaecological Endoscopy (ESGE). Such guidelines set the standards of care within the UK and Europe, and are used by clinics and hospitals across the world.<\/p><p>Sotirios is frequently invited to lecture at national and international conferences and has a special interest in the application of novel technologies and Artificial Intelligence in the field of reproductive health.<\/p>",
+            "speaker_content_color": "#504242",
+            "speaker_img": "shopify:\/\/shop_images\/Sotirios_Saravelos.jpg",
+            "img_second": false
+          }
+        }
+      },
+      "block_order": [
+        "speaker_dgKCHj",
+        "speaker_KbxHH8",
+        "speaker_zcpHbG",
+        "speaker_gDGLHf",
+        "speaker_LikKbF",
+        "speaker_gtbxjk",
+        "speaker_HbyP4g",
+        "speaker_9jMxCV",
+        "speaker_eimrXy",
+        "speaker_UQyUKy",
+        "speaker_dXRd8y",
+        "speaker_8RKVeK",
+        "speaker_DkKLg8",
+        "speaker_4fKhMy",
+        "speaker_RLwtgY",
+        "speaker_mNRKg7",
+        "speaker_4rxpAr",
+        "speaker_kKn6gm",
+        "speaker_7rrCxi",
+        "speaker_8HJDNx",
+        "speaker_WJFQmA",
+        "speaker_md9YEd",
+        "speaker_knRmKD",
+        "speaker_h6KK3a",
+        "speaker_NqEj9c",
+        "speaker_A3WRF8",
+        "speaker_cYBRDX",
+        "speaker_XpzBpm",
+        "speaker_HUw3yt",
+        "speaker_TqkaBB",
+        "speaker_DHBc6R",
+        "speaker_mdTyit",
+        "speaker_fxPfEj",
+        "speaker_zQkAeR",
+        "speaker_KLNH8R",
+        "speaker_6GHTi9",
+        "speaker_UaHaHC",
+        "speaker_mLPfP8",
+        "speaker_fJBGEg",
+        "speaker_mc6C8a",
+        "speaker_LrzhcP",
+        "speaker_dcU8bG",
+        "speaker_PKC3Hp",
+        "speaker_iUzkBF",
+        "speaker_r6wwk4",
+        "speaker_FJt6CW",
+        "speaker_LLD8GB",
+        "speaker_wBQicw",
+        "speaker_CUXRWY"
+      ],
+      "settings": {
+        "section_header": "",
+        "tab_txt_one": "trainee gynaecological ultrasound",
+        "tab_txt_two": "trainee obstetric ultrasound",
+        "event_name": "fetal medicine,early pregnancy care,gynaecology"
+      }
+    },
+    "main_speakers_two_PRppH3": {
+      "type": "main-speakers-two",
+      "blocks": {
+        "speaker_DdBdMw": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "trainee gynaecological ultrasound",
+            "speaker_id": "",
+            "block_bg_color": "#b0ceea",
+            "speaker_name": "Prof Tom Bourne",
+            "speaker_name_color": "#235371",
+            "speaker_subtext": "Professor of Obstetrics & Gynaecology",
+            "speaker_subtxt_color": "#45678e",
+            "speaker_content": "<p>Professor Tom Bourne is Chair in Gynaecology at Imperial College London and Consultant Gynecologist at Queen Charlotte’s and Chelsea Hospital London. He is visiting Professor and Consultant at KU Leuven in Belgium. He is a founder and sits on the steering committee of the International Ovarian Tumor Analysis Group (IOTA) and is director of early pregnancy research at the Tommy’s National Centre for Miscarriage care in the UK. He is an honorary fellow of the American Institute of Ultrasound in Medicine (AIUM) and an honorary member of the Australasian Society for Ultrasound in Medicine (ASUM). He is immediate past President of the UK Association of Early Pregnancy Units (AEPU) and a Trustee of the Ectopic Pregnancy Trust. He is the ISUOG immediate Past President (2020 - 2022). Professor Bourne is an authority on early pregnancy complications, emergency gynecology and gynaecological ultrasonography. He has also worked closely with the BMA and RCOG on research relating to the psychological impact of medical accidents and complaints on physicians as well as burnout. He has edited seven books and published over 430 papers; his h-index is 99 (Google scholar).  <\/p>",
+            "speaker_content_color": "#20435c",
+            "speaker_img": "shopify:\/\/shop_images\/Prof_Tom_Bourne.jpg",
+            "img_second": true
+          }
+        },
+        "speaker_WxinQ4": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "trainee gynaecological ultrasound",
+            "speaker_id": "",
+            "block_bg_color": "#b0ceea",
+            "speaker_name": "Mr Srdjan Saso",
+            "speaker_name_color": "#235371",
+            "speaker_subtext": "Consultant Gynaecological Oncologist",
+            "speaker_subtxt_color": "#45678e",
+            "speaker_content": "<p>Dr Srdjan Saso (MRCS MRCOG PhD) is a consultant gynaecologist and gynaecological cancer surgeon at Imperial College NHS Trust, London, UK. He is also an Honorary Clinical Senior Lecturer in the Department of Metabolism, Digestion and Reproduction, Imperial College London. His main research interests lie in gynaecological surgery (cancer and non-cancer) and the diagnostic application of ultrasound, with a focus on fertility-sparing surgery and oncofertility in general. His other main research themes focus on the growing influence of Artificial Intelligence and Technology in Women’s Health. In particular, focusing on the relationship between machine learning and ovarian cancer diagnosis. His final interest lies in the application of biomedical engineering in gynaecology. <\/p><p>@SasoGynaecology - twitter handle<\/p>",
+            "speaker_content_color": "#20435c",
+            "speaker_img": "shopify:\/\/shop_images\/Srdjan_Saso.jpg",
+            "img_second": false
+          }
+        },
+        "speaker_RhkGVx": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "trainee gynaecological ultrasound",
+            "speaker_id": "",
+            "block_bg_color": "#b0ceea",
+            "speaker_name": "Dr Jen Barcroft",
+            "speaker_name_color": "#235371",
+            "speaker_subtext": "Ph.D. Fellow",
+            "speaker_subtxt_color": "#45678e",
+            "speaker_content": "<p>Dr Jen Barcroft is a clinical research fellow and specialist Obstetrics and Gynaecology registrar based at Imperial College Healthcare NHS Trust with clinical interests in gynaecological ultrasound within early pregnancy, rapid access, and reproductive medicine. She is passionate about education and improving access to gynaecological ultrasound in clinical training. <\/p><p>She graduated from the University of Edinburgh in 2013 with a Bachelor of Medicine, Bachelor of Surgery and Bachelor in Medical Sciences in Reproductive Biology (First Class). She completed her membership examinations for the Royal College of Obstetricians and Gynaecologist in 2019 and was awarded the prize medal. Alongside clinical training, she is currently doing a PhD at Imperial College London, exploring the applications of machine learning within gynaecology diagnostics. Her research is focused on the development of machine learning-based models to support the classification of adnexal masses on ultrasound and the use of online search data to identify individuals at risk of disease<\/p>",
+            "speaker_content_color": "#20435c",
+            "speaker_img": "shopify:\/\/shop_images\/Barcroft_Jen.jpg",
+            "img_second": true
+          }
+        },
+        "speaker_gdDq3x": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "trainee gynaecological ultrasound",
+            "speaker_id": "",
+            "block_bg_color": "#b0ceea",
+            "speaker_name": "Dr Chiara Landolfo",
+            "speaker_name_color": "#235371",
+            "speaker_subtext": "Consultant Gynaecologist",
+            "speaker_subtxt_color": "#45678e",
+            "speaker_content": "<p>Chiara Landolfo, MD, PhD, is a Gynaecologist Oncologist Consultant at Imperial College London. She completed her training in Bologna (Italy), combining her education in Brussels and Leuven (Belgium). With a special interest in gynaecologic ultrasonography, she joined the IOTA group. She worked together with Prof D. Timmerman at KU Leuven, Prof T. Bourne at Imperial College London and Prof A. Testa at Gemelli Hospital in Rome. She is active in research on gynaecological ultrasound and translational analyses. She is member of ISUOG, SIEOG and ESGO. Chiara is currently member of the ISUOG Clinical Standards Committee and of the ISUOG Task Force for the Basic Training in Gynaecology. She also collaborates to VISUOG project, and worked as a member of the ISUOG “Next Generation group”. She regularly takes part in education, scientific<\/p>",
+            "speaker_content_color": "#20435c",
+            "img_second": false
+          }
+        },
+        "speaker_WTpa6c": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "trainee gynaecological ultrasound",
+            "speaker_id": "",
+            "block_bg_color": "#b0ceea",
+            "speaker_name": "Dr Nina Cooper",
+            "speaker_name_color": "#235371",
+            "speaker_subtext": "Ph.D. Fellow",
+            "speaker_subtxt_color": "#45678e",
+            "speaker_content": "<p>Dr Nina Cooper is a Ph.D fellow within the International Ovarian Tumour Analysis (IOTA) group at<\/p><p>Imperial College London and KU Leuven, Belgium. She leads two international multicentre IOTA studies<\/p><p>applying IOTA models to adnexal pathology in the pregnant and paediatric populations. She is a specialist<\/p><p>registrar in obstetrics and gynaecology at Imperial College Healthcare NHS Trust where she works as a<\/p><p>clinical research fellow in gynaecological ultrasound.<\/p>",
+            "speaker_content_color": "#20435c",
+            "img_second": true
+          }
+        },
+        "speaker_qxRTML": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "trainee gynaecological ultrasound",
+            "speaker_id": "",
+            "block_bg_color": "#b0ceea",
+            "speaker_name": "Ms Catriona Stalder",
+            "speaker_name_color": "#235371",
+            "speaker_subtext": "Consultant Obstetrician and Gynaecologist",
+            "speaker_subtxt_color": "#45678e",
+            "speaker_content": "",
+            "speaker_content_color": "#20435c",
+            "img_second": false
+          }
+        },
+        "speaker_RRW8eY": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "trainee gynaecological ultrasound",
+            "speaker_id": "",
+            "block_bg_color": "#b0ceea",
+            "speaker_name": "Prof Thierry Van den Bosch",
+            "speaker_name_color": "#235371",
+            "speaker_subtext": "Consultant Gynaecologist",
+            "speaker_subtxt_color": "#45678e",
+            "speaker_content": "<p>Thierry Van den Bosch completed his training at KU Leuven (Belgium) and the University of Pretoria (South Africa), worked as consultant at the Tygerberg Hospital (South-Africa). He later moved back to Belgium and became head of department at the regional hospital RZ Tienen. He currently works at the University Hospital Leuven, KU Leuven, and is Senior Clinical Investigator of the Scientific Research Fund (FWO) Flanders. <\/p>",
+            "speaker_content_color": "#20435c",
+            "speaker_img": "shopify:\/\/shop_images\/Thierry_van_den_Bosch.png",
+            "img_second": true
+          }
+        },
+        "speaker_jxximX": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "trainee gynaecological ultrasound",
+            "speaker_id": "",
+            "block_bg_color": "#b0ceea",
+            "speaker_name": "Prof Francesco D’ Antonio",
+            "speaker_name_color": "#45678e",
+            "speaker_subtext": "Aassociate Professor and Consultant in Obstetrics and Gynaecology",
+            "speaker_subtxt_color": "#235371",
+            "speaker_content": "",
+            "speaker_content_color": "#20435c",
+            "img_second": false
+          }
+        },
+        "speaker_jaPkcT": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "trainee gynaecological ultrasound",
+            "speaker_id": "",
+            "block_bg_color": "#b0ceea",
+            "speaker_name": "Prof Wouter Froyman",
+            "speaker_name_color": "#235371",
+            "speaker_subtext": "Consultant Gynaecologist",
+            "speaker_subtxt_color": "#45678e",
+            "speaker_content": "<p>Wouter Froyman graduated as a Medical Doctor at KU Leuven in 2011. He finished his specialization in Obstetrics and Gynecology in 2018 and has since then worked as a consultant in this department at the University Hospitals Leuven. <\/p><p>His main clinical activities and research are related to gynecological ultrasound and treatment of benign gynecological pathology, with special interest in minimally invasive and robot-assisted surgery.<\/p><p>In 2019, he obtained his PhD degree in Biomedical Sciences, with a doctoral thesis entitled \"Progress in differentiation and clinical management of adnexal masses\".  In 2020, he was appointed associate professor at KU Leuven. He is also a steering committee member of the International Ovarian Tumor Analysis (IOTA) studies.<\/p>",
+            "speaker_content_color": "#20435c",
+            "img_second": false
+          }
+        },
+        "speaker_MNrfKX": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "trainee gynaecological ultrasound",
+            "speaker_id": "",
+            "block_bg_color": "#b0ceea",
+            "speaker_name": "Miss Maya Al-Memar",
+            "speaker_name_color": "#235371",
+            "speaker_subtext": "Consultant Obstetrician and Gynaecologist",
+            "speaker_subtxt_color": "#45678e",
+            "speaker_content": "<p>Miss Maya Al-Memar is a Consultant Gynaecologist at Imperial College NHS Healthcare Trust, with specialist clinical interests in complex benign gynaecology, acute diagnostic services including early pregnancy and acute gynaecology, rapid access for suspected gynaecological cancer, and paediatric & adolescent gynaecology.<\/p><p>She completed her postgraduate training in Obstetrics and Gynaecology in North-West London. She graduated from Imperial College School of Medicine with first class honours in 2007, where she also completed her PhD and is now an honorary clinical lecturer. She is widely published in peer-reviewed journals. She currently has on-going research projects in the fields of early pregnancy, miscarriage, ovarian cysts and use of ultrasound to improve diagnosis of ovarian masses.<\/p>",
+            "speaker_content_color": "#20435c",
+            "speaker_img": "shopify:\/\/shop_images\/Maya_Al-Memar.jpg",
+            "img_second": false
+          }
+        },
+        "speaker_B4r64M": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "trainee gynaecological ultrasound",
+            "speaker_id": "",
+            "block_bg_color": "#b0ceea",
+            "speaker_name": "Miss Sharmistha Guha",
+            "speaker_name_color": "#235371",
+            "speaker_subtext": "Consultant Obstetrician and Gynaecologist",
+            "speaker_subtxt_color": "#45678e",
+            "speaker_content": "<p>Miss Sharmistha Guha is a Consultant obstetrician and gynaecologist at Chelsea and Westminster NHS Trust.She trained in the Northwest London Deanery and developed her special interest in early pregnancy and emergency gynaecology. She took time out of her training to perform research in this field at Chelsea and Westminster Hospital. <\/p><p>She has carried out several multicentred early pregnancy research projects including study in pregnancy of unknown location and has several papers in peer reviewed journals to her credentials. She did Post graduate diploma in gynaecology and early pregnancy ultrasound from King's College London in 2011. Miss Guha is the regional preceptor for Advanced Training in Acute Gynaecology and Early Pregnancy ATSM. She is a regular speaker in many national and international forums.  Miss Guha continues to pursue her research interest and supervises trainee to publish papers in Early Pregnancy and Acute Gynaecology. <\/p>",
+            "speaker_content_color": "#20435c",
+            "img_second": false
+          }
+        },
+        "speaker_Ghdqxa": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "trainee gynaecological ultrasound",
+            "speaker_id": "",
+            "block_bg_color": "#b0ceea",
+            "speaker_name": "Mr Sotirios Saravelos",
+            "speaker_name_color": "#235371",
+            "speaker_subtext": "Consultant Gynaecologist and Subspecialist in Reproductive Medicine",
+            "speaker_subtxt_color": "#45678e",
+            "speaker_content": "<p>Sotirios is a Consultant Gynaecologist and Accredited Subspecialist in Reproductive Medicine and Surgery at the Trust. He also holds an Honorary Clinical Lectureship at Imperial College London. <\/p><p>Sotirios has unique clinical and research experience from working within several different IVF units across the UK, Europe, and Hong Kong. He has authored over 50 peer-reviewed publications and several book chapters in the field of fertility and IVF. He has also co-developed guidelines on topics such as recurrent miscarriage and congenital uterine anomalies for the Royal College of Obstetricians & Gynaecologists (RCOG), the European Society of Human Reproduction & Embryology (ESHRE) and the European Society for Gynaecological Endoscopy (ESGE). Such guidelines set the standards of care within the UK and Europe, and are used by clinics and hospitals across the world.<\/p><p>Sotirios is frequently invited to lecture at national and international conferences and has a special interest in the application of novel technologies and Artificial Intelligence in the field of reproductive health.<\/p>",
+            "speaker_content_color": "#20435c",
+            "speaker_img": "shopify:\/\/shop_images\/Sotirios_Saravelos.jpg",
+            "img_second": true
+          }
+        },
+        "speaker_TCppdU": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "trainee gynaecological ultrasound",
+            "speaker_id": "",
+            "block_bg_color": "#b0ceea",
+            "speaker_name": "Ms Harsha Shah",
+            "speaker_name_color": "#235371",
+            "speaker_subtext": "",
+            "speaker_subtxt_color": "#45678e",
+            "speaker_content": "<p>Dr Harsha Shah is a medical doctor and academic researcher in the field of Obstetrics and Gynaecology. She has recently completed her doctoral research (PhD) at Imperial College London in novel three-dimensional ultrasound imaging in pregnancy for fetal anatomy assessment. Her current research goals are to improve the assessment of fetal anatomy in the first trimester using three-dimensional imaging techniques with embryological correlation. As part of this work, she is the co-founder of an online, open-access ultrasound image library <a href=\"http:\/\/www.3dultrasoundatlas.com\/\">www.3dultrasoundatlas.com<\/a>. Her further appointments include lecturer at Imperial College London on the MSc course: Reproductive and Developmental Biology, Trainee Representative for the Association of Early Pregnancy Units and former Royal College of Obstetricians and Gynaecologists Junior Careers Advisor and Chair of the North West Thames Obstetrics and Gynaecology Trainees’ Committee.<\/p>",
+            "speaker_content_color": "#20435c",
+            "img_second": false
+          }
+        },
+        "speaker_97LPCp": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "trainee gynaecological ultrasound",
+            "speaker_id": "",
+            "block_bg_color": "#b0ceea",
+            "speaker_name": "Ms Nina Parker",
+            "speaker_name_color": "#235371",
+            "speaker_subtext": "",
+            "speaker_subtxt_color": "#45678e",
+            "speaker_content": "<p>Dr Nina Parker is a clinical research fellow at Imperial College London and a specialist registrar in Obstetrics and Gynaecology. Nina is a PhD candidate with a research focus on miscarriage, she has a particular interest in psychological impact of early pregnancy loss and how this can be targeted to improve care for women and their partners.<\/p>",
+            "speaker_content_color": "#20435c",
+            "img_second": true
+          }
+        },
+        "speaker_tGgCER": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "trainee gynaecological ultrasound",
+            "speaker_id": "",
+            "block_bg_color": "#b0ceea",
+            "speaker_name": "Ms Katy Lindemann",
+            "speaker_name_color": "#235371",
+            "speaker_subtext": "Writer and Patient Advocate",
+            "speaker_subtxt_color": "#45678e",
+            "speaker_content": "<p>Katy Lindemann is a writer and patient advocate, in addition to her day job as a strategy consultant.<br\/><br\/>Following her own (unsuccessful) infertility journey of IVF and miscarriages, she now writes about infertility and pregnancy loss, and advocates for a better understanding of the patient perspective of fertility issues.<\/p><p> This talk will explore the experience of early pregnancy loss from the patient perspective. It will address how to talk to patients with empathy, respect and compassion, providing practical insight into the seemingly small things that can make a big difference.<\/p>",
+            "speaker_content_color": "#20435c",
+            "speaker_img": "shopify:\/\/shop_images\/Katy_Lindemann.png",
+            "img_second": false
+          }
+        },
+        "speaker_hfTPtb": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "trainee gynaecological ultrasound",
+            "speaker_id": "",
+            "block_bg_color": "#b0ceea",
+            "speaker_name": "Dr Alex Novak",
+            "speaker_name_color": "#235371",
+            "speaker_subtext": "Snr Clinical Research Fellow in Gynaecology",
+            "speaker_subtxt_color": "#45678e",
+            "speaker_content": "<p>Dr Alex Novak has taken time out of clinical training to Focus on Gynaecological Ultrasound, concentrating on Point of care Ultrasound and Machine Learning. <\/p>",
+            "speaker_content_color": "#20435c",
+            "img_second": false
+          }
+        },
+        "speaker_LtNwwt": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "trainee gynaecological ultrasound",
+            "speaker_id": "",
+            "block_bg_color": "#b0ceea",
+            "speaker_name": "Dr Chris Kyriacou",
+            "speaker_name_color": "#235371",
+            "speaker_subtext": "Ph.D. fellow",
+            "speaker_subtxt_color": "#45678e",
+            "speaker_content": "<p>Biography: Chris Kyriacou is an Obstetrics and Gynaecology Specialist Registrar who has completed his PhD at Imperial College London, UK, optimizing and investigating biomarkers in the prediction of pregnancy of unknown location outcome and ectopic pregnancy diagnosis. He is an NHS Clinical Entrepreneur and a keen advocate for education, contributing as a member of the International Society of Ultrasound in Obstetrics and Gynecology education task force, and representing trainees on the Association of Early Pregnancy Units executive committee.<\/p>",
+            "speaker_content_color": "#20435c",
+            "img_second": true
+          }
+        },
+        "speaker_aHimhX": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "trainee gynaecological ultrasound",
+            "speaker_id": "",
+            "block_bg_color": "#b0ceea",
+            "speaker_name": "Dr Shabnam Bobdiwala",
+            "speaker_name_color": "#235371",
+            "speaker_subtext": "",
+            "speaker_subtxt_color": "#45678e",
+            "speaker_content": "",
+            "speaker_content_color": "#20435c",
+            "img_second": false
+          }
+        },
+        "speaker_qackeM": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "trainee obstetric ultrasound",
+            "speaker_id": "",
+            "block_bg_color": "#b0ceea",
+            "speaker_name": "Prof Christoph Lees",
+            "speaker_name_color": "#235371",
+            "speaker_subtext": "Professor of Obstetrics",
+            "speaker_subtxt_color": "#45678e",
+            "speaker_content": "<p>Christoph Lees is Professor of Obstetrics at Imperial College London and Honorary Consultant in Obstetrics and Head of Fetal Medicine at the Centre for Fetal Care, Queen Charlotte’s and Chelsea Hospital, Imperial College Healthcare NHS Trust. He leads research into assessment of fetal health with Doppler ultrasound, scanning in labour, and non-invasive fetal surgery, including the first in human studies of high-intensity focused ultrasound.<\/p>",
+            "speaker_content_color": "#20435c",
+            "speaker_img": "shopify:\/\/shop_images\/Christoph_Lees.jpg",
+            "img_second": false
+          }
+        },
+        "speaker_nEqHmL": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "trainee obstetric ultrasound",
+            "speaker_id": "",
+            "block_bg_color": "#b0ceea",
+            "speaker_name": "Dr Anna Clark",
+            "speaker_name_color": "#235371",
+            "speaker_subtext": "Clinical Research Fellow",
+            "speaker_subtxt_color": "#45678e",
+            "speaker_content": "<p>Obstetrics & Gynaecology Registrar at Hillingdon Hospital and Clinical Research Fellow at Queen Charlotte’s & Chelsea Hospital, Imperial College Healthcare NHS Trust. Currently undertaking a PhD with Imperial College London exploring the use of 3D ultrasound and image segmentation for automatic assessment of fetal facial morphology. Other interests include the use of ultrasound simulation for ultrasound training. <\/p>",
+            "speaker_content_color": "#20435c",
+            "speaker_img": "shopify:\/\/shop_images\/Anna_Clark.jpg",
+            "img_second": true
+          }
+        },
+        "speaker_akTQGb": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "trainee obstetric ultrasound",
+            "speaker_id": "",
+            "block_bg_color": "#b0ceea",
+            "speaker_name": "Dr Jasmine Tay",
+            "speaker_name_color": "#235371",
+            "speaker_subtext": "Consultant Obstetrician and Subspecialist in Maternal Fetal Medicine",
+            "speaker_subtxt_color": "#45678e",
+            "speaker_content": "<p>Dr Jasmine Tay is a consultant obstetrician and subspecialist in maternal fetal medicine at Queen Charlotte’s and Chelsea Hospital, London. Her specialist skills are in complex obstetrics, maternal-fetal medicine and ultrasound scanning. She has a PhD from Imperial College London awarded for research into maternal cardiovascular changes in pre-eclampsia and fetal growth restriction. <\/p>",
+            "speaker_content_color": "#20435c",
+            "speaker_img": "shopify:\/\/shop_images\/Jasmine_TAY.jpg",
+            "img_second": false
+          }
+        },
+        "speaker_qcwA78": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "trainee obstetric ultrasound",
+            "speaker_id": "",
+            "block_bg_color": "#b0ceea",
+            "speaker_name": "Ms Katherine Papanikolaou",
+            "speaker_name_color": "#235371",
+            "speaker_subtext": "Specialist Doctor in Fetal Medicine",
+            "speaker_subtxt_color": "#45678e",
+            "speaker_content": "<p>Katherine Papanikolaou is a Fetal Medicine subspecialist. After completing her training in Obstetrics and Gynaecology in Greece, she trained for two years in Fetal Medicine at the Harris Birthright Research Centre for Fetal Medicine at King's College Hospital ,under the supervision of Professor K.Nicolaides. Subsequently she worked at Queen Charlotte's and Chelsea Hospital ,where currently is holding the post of Clinical fellow in Fetal Medicine at Centre of Fetal Care under Professor Christoph Lees.<\/p>",
+            "speaker_content_color": "#20435c",
+            "img_second": true
+          }
+        },
+        "speaker_iQH7ez": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "trainee obstetric ultrasound",
+            "speaker_id": "",
+            "block_bg_color": "#b0ceea",
+            "speaker_name": "Dr Laura Vazquez-Garcia",
+            "speaker_name_color": "#235371",
+            "speaker_subtext": "Consultant Fetal & Paediatric Cardiologist",
+            "speaker_subtxt_color": "#45678e",
+            "speaker_content": "<p>I am Fetal and Paediatric Cardiologist. I trained in paediatric cardiology in Spain and London and specialised in fetal cardiology in Toronto.  Since 2019 I work as a consultant at the Royal Brompton Hospital and perform my fetal cardiology clinics at Queen Charlotte´s and Chelsea Hospital, where I also provide paediatric cardiology input in the neonatal unit.<\/p>",
+            "speaker_content_color": "#20435c",
+            "speaker_img": "shopify:\/\/shop_images\/Laura_Vazquez-Garcia.jpg",
+            "img_second": false
+          }
+        },
+        "speaker_h7nX8i": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "trainee obstetric ultrasound",
+            "speaker_id": "",
+            "block_bg_color": "#b0ceea",
+            "speaker_name": "Dr Sofia Cerdeira",
+            "speaker_name_color": "#235371",
+            "speaker_subtext": "Sub-Specialty Trainee Maternal Fetal Medicine",
+            "speaker_subtxt_color": "#45678e",
+            "speaker_content": "",
+            "speaker_content_color": "#20435c",
+            "img_second": false
+          }
+        },
+        "speaker_hc3bfP": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "trainee obstetric ultrasound",
+            "speaker_id": "",
+            "block_bg_color": "#b0ceea",
+            "speaker_name": "Dr Mariya Kovalenko",
+            "speaker_name_color": "#235371",
+            "speaker_subtext": "Clinical Research Fellow",
+            "speaker_subtxt_color": "#45678e",
+            "speaker_content": "<p>Obstetric Registrar in the North West London deanery and currently working as a Clinical Research Fellow at Queen Charlotte's and Chelsea Hospital. My PhD research is focused on the use of intrapartum ultrasound, both transabdominal and transperineal approaches, during the second stage of labour in order to develop a prediction model for operative delivery. Additionally, I am interested in qualitative research towards the opinions of women, birth partners, and maternity staff on the use of ultrasound and its role in providing predictive information. I am passionate about sharing my expertise by assisting in the development of ultrasound simulation training, leading midwifery training workshops, and co-authoring a book chapter on the role of ultrasound in the labour room.<\/p>",
+            "speaker_content_color": "#20435c",
+            "speaker_img": "shopify:\/\/shop_images\/Mariya_Kovalenko.png",
+            "img_second": false
+          }
+        },
+        "speaker_dBR78F": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "trainee obstetric ultrasound",
+            "speaker_id": "",
+            "block_bg_color": "#b0ceea",
+            "speaker_name": "Dr Bronacha Mylrea-Foley",
+            "speaker_name_color": "#235371",
+            "speaker_subtext": "Clinical Research Fellow",
+            "speaker_subtxt_color": "#45678e",
+            "speaker_content": "<p>Dr Mylrea-Foley is a Clinical Research Fellow at Imperial College London, where she has co-ordinated the European multicentre TRUFFLE 2 Trial, an RCT investigating timing of delivery in late onset fetal growth restriction (FGR). Alongside this she has undertaken a PhD investigating maternal haemodynamics and biomarkers in FGR. Dr Mylrea-Foley is also a Specialty Registrar in O&G, completing her clinical training in the North West London Deanery and currently working at Queen Charlotte’s and Chelsea Hospital.<\/p>",
+            "speaker_content_color": "#20435c",
+            "speaker_img": "shopify:\/\/shop_images\/Mylrea-Lowndes__Bronacha.jpg",
+            "img_second": true
+          }
+        },
+        "speaker_KnFpzM": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "trainee obstetric ultrasound",
+            "speaker_id": "",
+            "block_bg_color": "#b0ceea",
+            "speaker_name": "Prof Tamara Stampalija",
+            "speaker_name_color": "#235371",
+            "speaker_subtext": "Professor of Obstetrics",
+            "speaker_subtxt_color": "#45678e",
+            "speaker_content": "<p>Prof. Tamara Stampalija, MD PhD<\/p><p>Chief of Unit of Fetal Medicine and Prenatal Diagnosis at Institute of maternal and Child Health Burlo Garofolo, Trieste, Italy<\/p><p>Assistant Professor in Obstetrics and Gynecology at Department of Medicine, Surgery and Health Sciences<\/p><p>Main interests in fetal growth restriction, hypertensive disorders of pregnancy, maternal hemodynamics and fetal imaging<\/p>",
+            "speaker_content_color": "#20435c",
+            "speaker_img": "shopify:\/\/shop_images\/Stampaljia_Tamara.jpg",
+            "img_second": false
+          }
+        },
+        "speaker_cEgr36": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "trainee obstetric ultrasound",
+            "speaker_id": "",
+            "block_bg_color": "#b0ceea",
+            "speaker_name": "Prof Kurt Hecher",
+            "speaker_name_color": "#235371",
+            "speaker_subtext": "Professor in Obstetrics and Fetal Medicine",
+            "speaker_subtxt_color": "#45678e",
+            "speaker_content": "<p>Awards and other Professional Activities:<\/p><p>1992 Erwin Schrödinger Fellowship, Austrian Science Foundation<\/p><p>1992 Honorary Lecturer in Obstetrics and Gynaecology, King’s College School of Medicine, University of London<\/p><p>1996 Habilitation in Obstetrics and Gynaecology, University of Vienna, Austria<\/p><p>1999 Werner Otto Foundation Award for Clinical Research<\/p><p>2000 Hans L. Geisenhofer Foundation Research Award, Bavarian Society of Obstetrics and Gynaecology<\/p><p>2006 Honorary Member of the ‘Sociedad Chilena de Ultrasonografia en Medicina y Biologia’<\/p><p>2008 Dres. Haackert Foundation Gold Medal Award for Prenatal Medicine<\/p><p>2011 Honorary Member of the Hungarian Society of Ultrasound in OB\/GYN<\/p><p>2011 Corresponding Member of the Chilean Society of OB\/GYN<\/p><p>2012 Pschyrembel – Medal for achievements as a researcher and teacher in obstetrics<\/p><p>2023: Honorary Membership: The Hellenic Society of Maternal – Fetal Medicine<\/p><p>ISUOG (International Society of Ultrasound in Obstetrics and Gynecology)<\/p><p>- President (2006-2008)<\/p><p>- Editor ‘Ultrasound in Obstetrics and Gynaecology’ (2003-2018)<\/p><p>- Deputy Editor-in-Chief (2011-2018)<\/p><p>- Chairman of the 19th World Congress on Ultrasound in O&G (13-17 September 2009, Hamburg)<\/p><p>- Chairman of the 29th World Congress on Ultrasound in O&G (12-16 October 2019, Berlin)<\/p>",
+            "speaker_content_color": "#20435c",
+            "speaker_img": "shopify:\/\/shop_images\/Hecher_Kurt.jpg",
+            "img_second": true
+          }
+        },
+        "speaker_ETA7Jq": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "trainee obstetric ultrasound",
+            "speaker_id": "",
+            "block_bg_color": "#b0ceea",
+            "speaker_name": "Miss Sana Usman",
+            "speaker_name_color": "#235371",
+            "speaker_subtext": "Consultant Obstetrician and Subspecialist in Maternal Fetal Medicine",
+            "speaker_subtxt_color": "#45678e",
+            "speaker_content": "<p>Sana is a Consultant Obstetrician and Maternal Fetal Medicine Subspecialist at City Hospital, Birmingham. She is also an Honorary Consultant at Imperial College Healthcare NHS Trust. <\/p><p>Sana's PhD focused on “Intrapartum ultrasound in predicting labour outcome” and focused on the acceptability, feasibility of intrapartum ultrasound as well as prediction modelling in the first and second stage of labour. She has actively collaborated with NTNU, KU Leuven and King's College London on parallel studies and statistical methodology. This collaborative work has resulted in over 10 peer reviewed publications and several book chapters and reviews. <\/p><p>As an Honorary Clinical Lecturer,  Sana is co-supervising PhD students at Imperial College London. She is continuing her interest in Intrapartum and Point of Care Ultrasound (POCUS) research through national studies including being a Co-applicant in the awarded NIHR SONO-Breech trial.<\/p>",
+            "speaker_content_color": "#20435c",
+            "speaker_img": "shopify:\/\/shop_images\/Usman_Sana.jpg",
+            "img_second": false
+          }
+        },
+        "speaker_R9dnT3": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "trainee obstetric ultrasound",
+            "speaker_id": "",
+            "block_bg_color": "#b0ceea",
+            "speaker_name": "Prof Mark Kilby",
+            "speaker_name_color": "#235371",
+            "speaker_subtext": "DSc MD FRCOG FRCPI Professor of Fetal Medicine",
+            "speaker_subtxt_color": "#45678e",
+            "speaker_content": "<p>Mark Kilby is Emeritus Dame Hilda Lloyd Professor of Fetal Medicine at the University of Birmingham and Consultant in Fetal Medicine at Birmingham Women's and Children's Foundation Trust. He is working as Principal Senior Clinical Scientist at the Medical Research Group, Cambridge, Illumina UK, until April 2024.<\/p><p>He was Lead Clinician in Fetal Medicine (1997-2022) at Birmingham Women’s, focusing upon Fetal Medicine and Therapy.  He established their joint Fetal Medicine Genetics Clinic in 2003 and was a PI on studies investigating the prenatal use of chromosomal microarray and exome sequencing (through the PAGE study), being involved in the establishment of the R21 pathway for NHS E.<\/p><p>He is a past WM representative for the Royal College of Obstetricians & Gynaecologists' Council (2011-2017) and President of British Maternal Fetal Medicine Society (2011-2014). He was Chairman and Senior Topic Advisor for the NICE Guidelines on Twin and Triplet Pregnancies (NICE 2011 and NG137, 2019). He is a co-author of the RCOG Green Top Guidelines for the management of Monochorionic Twins (2008 and 2016), which he is presently updating (2024).  He is also an author of the RCOG Green Top Guideline for the prenatal use of cffDNA testing (to be published in 2024).<\/p><p>He has published extensively on many areas relating to fetal medicine and therapy.  In total, he has published 376 original peer-reviewed papers (26309 citations): h-index of 86; i10 index of 294, an RG score of 68.1, and numerous books\/chapters, including <em>Fetal Therapy<\/em> : Scientific Basis and Appraisal of Clinical Practice (2nd Edition, Cambridge University Press, UK, 2019).<\/p>",
+            "speaker_content_color": "#20435c",
+            "speaker_img": "shopify:\/\/shop_images\/Mark_Kilby.jpg",
+            "img_second": true
+          }
+        },
+        "speaker_TQzFJ4": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "trainee obstetric ultrasound",
+            "speaker_id": "",
+            "block_bg_color": "#b0ceea",
+            "speaker_name": "Dr Jan Cobben",
+            "speaker_name_color": "#235371",
+            "speaker_subtext": "Lead Clinical Geneticist",
+            "speaker_subtxt_color": "#45678e",
+            "speaker_content": "<p>Jan Cobben works as a consultant in Paediatric and Clinical Genetics with 35 years of experience. Having seen many children, born and unborn, with many genetic and non-genetic conditions. After having trained and worked mostly in The Netherlands, he is currently clinical lead of the NHS Northwest Thames Regional Genetics Service, which covers North and Northwest London and has clinics all over NW London.<\/p><p>Having a research career was until recently an activity on the side, but with &gt;150 Pubmed international publications, about 40% as first or senior author, nothing to be all that ashamed of.  Concerning Fetal Medicine, he participates in a weekly Fetal Ultrasound Clinic in Chelsea and Westminster Hospital, is unofficial member of the multidisciplinary team of the Fetal medicine Unit in Queen Charlotte's Hospital and is member of the R21 North Thames Genomic Laboratory prenatal exome DNA sequencing clinical eligibility panel for the southern half of England.<\/p><p> <\/p>",
+            "speaker_content_color": "#20435c",
+            "speaker_img": "shopify:\/\/shop_images\/Jan_COBBEN_1.jpg",
+            "img_second": false
+          }
+        },
+        "speaker_DGKpA9": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "trainee obstetric ultrasound",
+            "speaker_id": "",
+            "block_bg_color": "#b0ceea",
+            "speaker_name": "Miss Byrony Jones",
+            "speaker_name_color": "#235371",
+            "speaker_subtext": "Consultant Obstetrician and Subspecialist in Maternal Fetal Medicine",
+            "speaker_subtxt_color": "#45678e",
+            "speaker_content": "",
+            "speaker_content_color": "#20435c",
+            "img_second": true
+          }
+        },
+        "speaker_WBNEUd": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "trainee obstetric ultrasound",
+            "speaker_id": "",
+            "block_bg_color": "#b0ceea",
+            "speaker_name": "Dr Lynne Sykes",
+            "speaker_name_color": "#235371",
+            "speaker_subtext": "The Parasol Foundation Clinical Senior Lecturer and Honorary Consultant",
+            "speaker_subtxt_color": "#45678e",
+            "speaker_content": "<p>Dr Lynne Sykes is a Parasol Foundation Clinical Senior Lecturer at Imperial College London. She is an Honorary Consultant Obstetrician at Imperial College Healthcare NHS Trust where she is Clinical Lead for Preterm Birth Prevention Services at St Mary’s and Queen Charlotte’s and Chelsea Hospitals. She looks after women who are at high-risk of having an early birth and offers preventative treatments to help maintain a successful pregnancy. The aetiology of extreme preterm birth is poorly understood. The most common causal factor is thought to be microbial-driven. Her research is focused on understanding the role of microbe-host immune interactions with a vision to introduce new predictive and preventative tools directed to this aetiology.  Dr Sykes has worked at Imperial for over 15 years. She completed her PhD in 2012 as a Wellbeing of Women Research Fellow, obtained NIHR funded Academic Clinical Fellow and Clinical Lecturer posts prior to CCT in 2019.  <\/p><p><a href=\"https:\/\/www.imperial.ac.uk\/people\/l.sykes\">Home - Dr Lynne Sykes (imperial.ac.uk)<\/a><\/p><p><a href=\"https:\/\/www.bing.com\/ck\/a?!&&p=180bfe6d9a71e952JmltdHM9MTcwODIxNDQwMCZpZ3VpZD0yMjkyY2RlOS1mZTdlLTYyM2MtMjU5OC1kZTBiZmZiNTYzNmImaW5zaWQ9NTIxMA&ptn=3&ver=2&hsh=3&fclid=2292cde9-fe7e-623c-2598-de0bffb5636b&psq=dr+lynne+sykes+twitter+x&u=a1aHR0cHM6Ly90d2l0dGVyLmNvbS9Eckx5bm5lU3lrZXM&ntb=1\">@DrLynneSykes | Twitter<\/a><\/p>",
+            "speaker_content_color": "#20435c",
+            "img_second": false
+          }
+        },
+        "speaker_AAExRK": {
+          "type": "speaker",
+          "settings": {
+            "speaker_event": "trainee obstetric ultrasound",
+            "speaker_id": "",
+            "block_bg_color": "#b0ceea",
+            "speaker_name": "Dr Jay Banerjee",
+            "speaker_name_color": "#235371",
+            "speaker_subtext": "Neonatal Consultant and RCPCH Clinical Tutor",
+            "speaker_subtxt_color": "#45678e",
+            "speaker_content": "<p>“I am a Consultant Neonatologist at Imperial College NHS Healthcare Trust since 2014 and an Honorary Senior Clinical Lecturer at the Institute of Reproductive and Developmental Biology at the Imperial College London. I am the co-lead for ‘Origins of health and disease’ theme at the Centre for Paediatrics and Child Health, Imperial College London and a Hon Consultant in the Department of Paediatric Cardiology at the Royal Brompton Hospital, London, UK.<\/p><p> I completed my graduation from Calcutta Medical College in India and did my neonatal training in the UK. My research interest includes neonatal haemodynamics and oxygenation and was awarded with an MD (Research) in this field from Queen Mary’s University of London under the supervision of Prof Narendra Aladangady. <\/p><p> I am innovative and have been involved in service development projects within National Health Service (NHS) in the UK. <\/p><p> My aim is to pioneer family delivered care in the UK in collaboration with the experienced team at Mt Sinai Hospital, Toronto, CA, and strongly believe this will be the standard of care in the UK within the next few years. I have been involved in developing FIC model in Imperial College Neonatal units and collaborating with UK partners to develop this model in the UK. I have received several prizes locally and nationally for this care model and a mobile application that I have produced alongwith our multidisciplinary team (<a href=\"https:\/\/ifdc-familyintegratedcare.com\/\">https:\/\/ifdc-familyintegratedcare.com<\/a>).  I am also collaborating with similar projects in LMICs in Africa and Indian subcontinent.<\/p><p> I have considerable interest in the field of neonatal circulation, non-invasive measurements of tissue oxygenation and cardiac output and is a faculty member of paediatric echocardiography and point of care ultrasound course in the UK and faculty for teaching neonatal functional haemodynamics in the Royal College of Paediatrics and Child Health, UK. I am avid learner and run the neonatal education programme in the neonatal department and the Royal College tutor for RCPCH at the Imperial College Healthcare NSH Trust, London, UK.”<\/p>",
+            "speaker_content_color": "#20435c",
+            "img_second": false
+          }
+        }
+      },
+      "block_order": [
+        "speaker_DdBdMw",
+        "speaker_WxinQ4",
+        "speaker_RhkGVx",
+        "speaker_gdDq3x",
+        "speaker_WTpa6c",
+        "speaker_qxRTML",
+        "speaker_RRW8eY",
+        "speaker_jxximX",
+        "speaker_jaPkcT",
+        "speaker_MNrfKX",
+        "speaker_B4r64M",
+        "speaker_Ghdqxa",
+        "speaker_TCppdU",
+        "speaker_97LPCp",
+        "speaker_tGgCER",
+        "speaker_hfTPtb",
+        "speaker_LtNwwt",
+        "speaker_aHimhX",
+        "speaker_qackeM",
+        "speaker_nEqHmL",
+        "speaker_akTQGb",
+        "speaker_qcwA78",
+        "speaker_iQH7ez",
+        "speaker_h7nX8i",
+        "speaker_hc3bfP",
+        "speaker_dBR78F",
+        "speaker_KnFpzM",
+        "speaker_cEgr36",
+        "speaker_ETA7Jq",
+        "speaker_R9dnT3",
+        "speaker_TQzFJ4",
+        "speaker_DGKpA9",
+        "speaker_WBNEUd",
+        "speaker_AAExRK"
+      ],
+      "settings": {
+        "section_header": "",
+        "event_name": "trainee gynaecological ultrasound,trainee obstetric ultrasound"
+      }
+    }
+  },
+  "order": [
+    "template-header",
+    "main",
+    "speakers",
+    "main_speakers_two_PRppH3"
+  ]
+}

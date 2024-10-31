@@ -1,0 +1,15 @@
+.heading-text-section {
+  max-width: 1360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heading-text-inner {
+  max-width: 90%;
+  margin: 20px auto 0 auto;
+  padding: 50px 50px 0 50px;
+  text-align: center;
+
+.heading-text-inner {
+  calc(var(--font-heading-scale) * 40px)
+}

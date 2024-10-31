@@ -1,0 +1,145 @@
+{{ 'programme-column.css' | asset_url | stylesheet_tag }}
+{%- liquid
+  assign background = section.settings.background
+  assign disable_top_spacing = section.settings.disable_top_spacing
+	assign disable_bottom_spacing = section.settings.disable_bottom_spacing
+-%}
+
+<div
+  class="section-container
+  section-spacing{% if disable_top_spacing %}
+  section-spacing--disable-top
+  {% endif %}
+  {% if disable_bottom_spacing %}
+  section-spacing--disable-bottom
+  {% endif %}">
+  {% if section.settings.section-heading != blank %}
+    <div class="programme-col">
+      <h2 class="programme-header">
+        {{ section.settings.section-heading }}
+      </h2>
+    </div>
+  {% endif %}
+
+  <div class="column-container">
+    {% for block in section.blocks %}
+      <div class="column-inner">
+        <h3>{{ block.settings.heading-text }}</h3>
+        <h5>{{ block.settings.subtext }}</h5>
+        <p>{{ block.settings.text }}</p>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% if request.path contains 'fetal-medicine' %}
+    <style>
+        .section-container .column-container .column-inner:nth-of-type(odd) {
+          background-color: #e85c2e;
+          width: 20%;
+        }
+        .section-container .column-container .column-inner:nth-of-type(even) {
+          background-color: #e85c2e63;
+          width: 80%;
+        }
+    </style>
+{% endif %}
+
+{% if request.path contains 'early-pregnancy-care' %}
+    <style>
+        .section-container .column-container .column-inner:nth-of-type(odd) {
+          background-color: #c09424;
+          width: 20%;
+        }
+        .section-container .column-container .column-inner:nth-of-type(even) {
+          background-color: #c0942461;
+          width: 80%;
+        }
+    </style>
+{% endif %}
+
+{% if request.path contains 'gynaecology' %}
+    <style>
+        .section-container .column-container .column-inner:nth-of-type(odd) {
+          background-color: #683150;
+          width: 20%;
+        }
+        .section-container .column-container .column-inner:nth-of-type(even) {
+          background-color: #debace;
+          width: 80%;
+        }
+    </style>
+{% endif %}
+
+{% if request.path contains 'trainee' %}
+    <style>
+        .section-container .column-container .column-inner:nth-of-type(odd) {
+          width: 20%;
+        }
+        .section-container .column-container .column-inner:nth-of-type(even) {
+          width: 80%;
+        }
+    </style>
+{% endif %}
+
+{% schema %}
+  {
+    "name": "Programme Column",
+    "settings": [
+      {
+        "id": "section-heading",
+        "type": "text",
+        "label": "Place your heading here"
+      }, {
+        "type": "header",
+        "content": "Spacing"
+      }, {
+        "type": "checkbox",
+        "id": "disable_top_spacing",
+        "default": false,
+        "label": "Remove top spacing"
+      }, {
+        "type": "checkbox",
+        "id": "disable_bottom_spacing",
+        "default": false,
+        "label": "Remove bottom spacing"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "column",
+        "name": "Column",
+        "settings": [
+          {
+            "type": "text",
+            "id": "heading-text",
+            "label": "Header",
+            "default": "Add heading here."
+          }, {
+            "id": "text",
+            "type": "richtext",
+            "label": "Content"
+          },
+          {
+            "type": "text",
+            "id": "subtext",
+            "label": "Subtext",
+            "default": "Add subtext here."
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Programme Column",
+        "blocks": [
+          {
+            "type": "column"
+          }, {
+            "type": "column"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

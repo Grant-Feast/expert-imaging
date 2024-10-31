@@ -1,0 +1,17 @@
+/* Header socials styles */
+
+.header-socials-container {
+  display: flex;
+  justify-content: center;
+  padding-top: .5rem;
+  z-index: 30;
+  position: relative;
+  background-color: white;
+}
+
+@media only screen and (min-width: 769px) {
+  .header-socials-container {
+    justify-content: end;
+    padding-right: 4.4%;
+  }
+} 

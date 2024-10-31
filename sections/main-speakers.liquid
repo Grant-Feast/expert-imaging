@@ -1,0 +1,229 @@
+{{ 'main-speakers.css' | asset_url | stylesheet_tag }}
+
+<style>
+  .hidden {
+    display: none;
+  }
+
+  .active {
+    display: block;
+  }
+</style>
+
+<div class="speakers-container">
+  <div class="section-header-container">
+    <h3>{{ section.settings.section_header }}</h3>
+  </div>
+
+  {% assign cats = section.settings.event_name | split: ',' %}
+
+  <eiog-speakers data-module="eiog-speakers" data-active-selector="{{ cats[0] }}" class="eiog-speakers">
+    <div class="event-names-container">
+      {% for cat in cats %}
+        <span data-faq-selector="{{ cat }}" class="category-btn {% if forloop.first %} underline {% endif %}">
+          {{ cat }}
+        </span>
+      {% endfor %}
+    </div>
+    {% unless section.settings.tab_txt_one == blank or section.settings.tab_txt_two == blank %}
+      <div class="scroll-to-tabs">
+        {% if section.settings.tab_txt_one != blank %}
+          <span class="scroll-tabs-container">
+            {{ section.settings.tab_txt_one }}
+          </span>
+        {% endif %}
+        {% if section.settings.tab_txt_two != blank %}
+          <span class="scroll-tabs-container">
+            {{ section.settings.tab_txt_two }}
+          </span>
+        {% endif %}
+      </div>
+    {% endunless %}
+
+    {% for block in section.blocks %}
+      <div
+        data-faq-type="{{ block.settings.speaker_event }}"
+        class="eft-faqs-accordion speaker-block {% unless cats[0] == block.settings.speaker_event %}hidden{% endunless %} {% if block.settings.img_second %}img-second{% endif %}"
+        style="background-color: {{ block.settings.block_bg_color }};"
+      >
+        {% if block.settings.speaker_img != blank %}
+          <div class="speaker-img">
+            <img src="{{ block.settings.speaker_img |  image_url: width: 250 }}" alt="">
+          </div>
+        {% endif %}
+        <div class="speaker-info {% if block.settings.speaker_img == blank %}full-width{% endif %}">
+          <span class="speaker-name" style="color: {{ block.settings.speaker_name_color }};">
+            {{- block.settings.speaker_name -}}
+          </span>
+          <span class="speaker-sub-txt" style="color: {{ block.settings.speaker_subtxt_color }};">
+            {{- block.settings.speaker_subtext -}}
+          </span>
+          <span class="speaker-content" style="color: {{ block.settings.speaker_content_color }};">
+            {{- block.settings.speaker_content -}}
+          </span>
+        </div>
+      </div>
+    {% endfor %}
+  </eiog-speakers>
+</div>
+
+<script>
+  class EiogSpeakers extends HTMLElement {
+    constructor() {
+      super();
+      this.selectors = this.querySelectorAll('[data-faq-selector]');
+      this.active = this.getAttribute('data-active-selector') || null;
+      this.accordions = this.querySelectorAll('.eft-faqs-accordion');
+      this.innitFaqs();
+      this.initSelectors();
+    }
+
+    initSelectors() {
+      if (this.selectors.length > 0) {
+        this.selectors.forEach((selector) => {
+          selector.addEventListener('click', () => {
+            this.active = selector.getAttribute('data-faq-selector');
+            this.updateSelectors();
+          });
+        });
+      }
+    }
+
+    updateSelectors() {
+      if (this.selectors.length > 0) {
+        this.selectors.forEach((selector) => {
+          if (selector.getAttribute('data-faq-selector') === this.active) {
+            selector.classList.add('underline');
+          } else {
+            selector.classList.remove('underline');
+          }
+        });
+      }
+
+      this.accordions.forEach((accordion) => {
+        if (accordion.getAttribute('data-faq-type') === this.active) {
+          accordion.classList.remove('hidden');
+        } else {
+          accordion.classList.add('hidden');
+        }
+      });
+    }
+
+    innitFaqs() {
+      this.accordions.forEach((accordion) => {
+        accordion.addEventListener('click', () => {
+          accordion.classList.toggle('active');
+        });
+      });
+    }
+  }
+
+  if (!customElements.get('eiog-speakers')) {
+    customElements.define('eiog-speakers', EiogSpeakers);
+  }
+</script>
+
+{% schema %}
+{
+  "name": "Speakers",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_header",
+      "label": "Section Header"
+    },
+    {
+      "type": "text",
+      "id": "tab_txt_one",
+      "label": "Tab text one"
+    },
+    {
+      "type": "text",
+      "id": "tab_txt_two",
+      "label": "Tab text two"
+    },
+    {
+      "type": "text",
+      "id": "event_name",
+      "label": "Event Name",
+      "default": "fetal medicine,early pregnancy care,gynaecology",
+      "info": "Comma seperated list of events ie: fetal 'medicine,early pregnancy care,gynaecology'"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "speaker",
+      "name": "Speaker",
+      "settings": [
+        {
+          "type": "text",
+          "id": "speaker_event",
+          "label": "Event Name",
+          "info": "Event at which speaker is taking part"
+        },
+        {
+          "type": "text",
+          "id": "speaker_id",
+          "label": "Speaker Link ID",
+          "info": "Enter an ID for the speaker which will link from the proramme page to the specified speaker. ie: 'john'"
+        },
+        {
+          "type": "color",
+          "id": "block_bg_color",
+          "label": "Block Color",
+          "default": "#ea5e30"
+        },
+        {
+          "type": "text",
+          "id": "speaker_name",
+          "label": "Speaker Name"
+        },
+        {
+          "type": "color",
+          "id": "speaker_name_color",
+          "label": "Text Color",
+          "default": "#ffffff"
+        },
+        {
+          "type": "text",
+          "id": "speaker_subtext",
+          "label": "Speaker Subtext"
+        },
+        {
+          "type": "color",
+          "id": "speaker_subtxt_color",
+          "label": "Subtext Color",
+          "default": "#ffffff"
+        },
+        {
+          "type": "richtext",
+          "id": "speaker_content",
+          "label": "Speaker Content"
+        },
+        {
+          "type": "color",
+          "id": "speaker_content_color",
+          "label": "Content Color",
+          "default": "#ffffff"
+        },
+        {
+          "type": "image_picker",
+          "id": "speaker_img",
+          "label": "Speaker Image"
+        },
+        {
+          "type": "checkbox",
+          "id": "img_second",
+          "label": "Image Second",
+          "info": "Check box to have text first, image second"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Main Speaker Section"
+    }
+  ]
+}
+{% endschema %}

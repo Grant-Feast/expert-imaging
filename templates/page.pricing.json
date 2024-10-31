@@ -1,0 +1,186 @@
+{
+  "sections": {
+    "template-header": {
+      "type": "template-header",
+      "custom_css": [
+        "h1,p {background-color: #1855816e; padding: 5px;}",
+        "h1 {margin-bottom: 0px !important;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "overlay_opacity": 10,
+        "display_description": true,
+        "bg_image": "shopify:\/\/shop_images\/EIOG_Blue_waves_2500x500px.jpg"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "rich_text_pLW3GN": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_wPJgfp": {
+          "type": "subheading",
+          "settings": {
+            "text": "Expert Imaging in Obstetrics and Gynaecology 2025"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_wPJgfp"
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "95a0c9f5-dbed-4134-9919-167f20368a2a": {
+      "type": "fees-column",
+      "blocks": {
+        "template--14875710455889__95a0c9f5-dbed-4134-9919-167f20368a2a-1689005536c7a3cc10-0": {
+          "type": "column",
+          "settings": {
+            "title": "Full meeting - Consultant Rate",
+            "heading_size": "h5",
+            "text": "<p>Access to in-person meeting on Thursday 15th & Friday 16th May 2025<\/p><p>Full Price £590<\/p>",
+            "price": "",
+            "date": "",
+            "link_label": "REGISTER",
+            "link": "https:\/\/www.symposia.org.uk\/courses\/expert-imaging-in-obstetrics-and-gynaecology-2025\/"
+          }
+        },
+        "template--14875710455889__95a0c9f5-dbed-4134-9919-167f20368a2a-1689005536c7a3cc10-2": {
+          "type": "column",
+          "settings": {
+            "title": "Full Meeting - Sonographer \/ Midwife \/ AHP Rate",
+            "heading_size": "h5",
+            "text": "<p>Access to in-person meeting on Thursday 15th & Friday 16th May 2025<\/p><p>Full Price £440<\/p>",
+            "price": "",
+            "date": "",
+            "link_label": "REGISTER",
+            "link": "https:\/\/www.symposia.org.uk\/courses\/expert-imaging-in-obstetrics-and-gynaecology-2025\/"
+          }
+        },
+        "template--14875710455889__95a0c9f5-dbed-4134-9919-167f20368a2a-1689005536c7a3cc10-1": {
+          "type": "column",
+          "settings": {
+            "title": "Full Meeting -  Trainee Rate",
+            "heading_size": "h5",
+            "text": "<p>Access to in-person meeting on Thursday 15th & Friday 16th May 2025<\/p><p>Full Price £475<\/p>",
+            "price": "",
+            "date": "",
+            "link_label": "REGISTER",
+            "link": "https:\/\/www.symposia.org.uk\/courses\/expert-imaging-in-obstetrics-and-gynaecology-2025\/"
+          }
+        }
+      },
+      "block_order": [
+        "template--14875710455889__95a0c9f5-dbed-4134-9919-167f20368a2a-1689005536c7a3cc10-0",
+        "template--14875710455889__95a0c9f5-dbed-4134-9919-167f20368a2a-1689005536c7a3cc10-2",
+        "template--14875710455889__95a0c9f5-dbed-4134-9919-167f20368a2a-1689005536c7a3cc10-1"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "mobile_swipe": false,
+        "text_alignment": "center",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "0f099a84-7e7d-4902-b6cd-5e9b5cf08f5e": {
+      "type": "fees-column",
+      "blocks": {
+        "template--14875710455889__0f099a84-7e7d-4902-b6cd-5e9b5cf08f5e-168901801846dbe2dd-0": {
+          "type": "column",
+          "settings": {
+            "title": "One Day Meeting - Consultant Rate",
+            "heading_size": "h5",
+            "text": "<p>Access to in-person meeting on either Thursday 15th & Friday 16th May 2025<\/p><p>Full Price £300<\/p>",
+            "price": "",
+            "date": "",
+            "link_label": "REGISTER",
+            "link": "https:\/\/www.symposia.org.uk\/courses\/expert-imaging-in-obstetrics-and-gynaecology-2025\/"
+          }
+        },
+        "template--14875710455889__0f099a84-7e7d-4902-b6cd-5e9b5cf08f5e-168901801846dbe2dd-2": {
+          "type": "column",
+          "settings": {
+            "title": "One Day Meeting - Sonographer \/ Midwife \/ AHP Rate",
+            "heading_size": "h5",
+            "text": "<p>Access to in-person meeting on either Thursday 15th & Friday 16th May 2025<\/p><p>Full Price £225<\/p>",
+            "price": "",
+            "date": "",
+            "link_label": "REGISTER",
+            "link": "https:\/\/www.symposia.org.uk\/courses\/expert-imaging-in-obstetrics-and-gynaecology-2025\/"
+          }
+        },
+        "template--14875710455889__0f099a84-7e7d-4902-b6cd-5e9b5cf08f5e-168901801846dbe2dd-1": {
+          "type": "column",
+          "settings": {
+            "title": "One Day Meeting - Trainee Rate",
+            "heading_size": "h5",
+            "text": "<p>Access to in-person meeting on either Thursday 15th & Friday 16th May 2025<\/p><p>Full Price £250<\/p>",
+            "price": "",
+            "date": "",
+            "link_label": "REGISTER",
+            "link": "https:\/\/www.symposia.org.uk\/courses\/expert-imaging-in-obstetrics-and-gynaecology-2025\/"
+          }
+        }
+      },
+      "block_order": [
+        "template--14875710455889__0f099a84-7e7d-4902-b6cd-5e9b5cf08f5e-168901801846dbe2dd-0",
+        "template--14875710455889__0f099a84-7e7d-4902-b6cd-5e9b5cf08f5e-168901801846dbe2dd-2",
+        "template--14875710455889__0f099a84-7e7d-4902-b6cd-5e9b5cf08f5e-168901801846dbe2dd-1"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "mobile_swipe": false,
+        "text_alignment": "center",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "3f987aa4-6f37-41c1-9d9a-c9ba3f862994": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15097094701137__3f987aa4-6f37-41c1-9d9a-c9ba3f862994-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Health Education England (HEE) has approved the EIOG trainee programme as ‘optional, recommended’. Trainees can therefore claim the full registration fee back from their Trust using the following HEE code: OBSG0003. The process is as follows:<\/p><ul><li>Book a place now via the register button and pay upfront<\/li><li>GRT will issue a payment receipt with your booking confirmation<\/li><li>GRT will issue a certificate of attendance one week following the meeting<\/li><li>Submit a registration fee expenses claim to your Trust quoting HEE reference OBSG0003, attaching your payment receipt and certificate of attendance<\/li><li>Your trust will reimburse your registration fee<\/li><\/ul><p>Book now to take advantage of the Early Bird registration fee and secure your study leave.<\/p><p>The EIOG trainee course is a bold new innovation. Offering trainees the opportunity to hear from expert UK and European speakers in early pregnancy, gynaecological and obstetric ultrasound with keynote lectures, case studies, interactive sessions and round tables. Trainees will get a grounding in the basics of contemporary ultrasonography, how to manage what they find on scan, and controversies in a unique format with clear learning objectives, pre and post course materials.<\/p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "template--15097094701137__3f987aa4-6f37-41c1-9d9a-c9ba3f862994-text-1"
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "left",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "template-header",
+    "main",
+    "rich_text_pLW3GN",
+    "95a0c9f5-dbed-4134-9919-167f20368a2a",
+    "0f099a84-7e7d-4902-b6cd-5e9b5cf08f5e",
+    "3f987aa4-6f37-41c1-9d9a-c9ba3f862994"
+  ]
+}

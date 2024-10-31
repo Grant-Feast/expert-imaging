@@ -1,0 +1,12 @@
+{%- if paginate.pages > 1 -%}
+{{ 'pagination.css' | asset_url | stylesheet_tag }}
+<div class="row">
+	<div class="small-12 columns">
+		<nav class="pagination">
+			<div class="page-numbers nav-links">
+				{{ paginate | default_pagination: next: '→', previous: '←' }}
+			</div>
+		</nav>
+	</div>
+</div>
+{%- endif -%}

@@ -1,0 +1,56 @@
+/*------------------------------------------------------------------
+Compass Mixins
+*/
+/*------------------------------------------------------------------
+Variables
+*/
+/*------------------------------------------------------------------
+Utilities
+*/
+.scrolling-text {
+  background: rgb(246, 246, 240, 0.6);
+  color: var(--color-text, var(--color-accent2)); }
+  .scrolling-text_inner {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 15px 0;
+    overflow: hidden; }
+    .scrolling-text_inner.direction-left > div {
+      animation: marquee-left var(--marquee-speed) linear infinite; }
+    .scrolling-text_inner.direction-right > div {
+      animation: marquee-right var(--marquee-speed) linear infinite; }
+    .scrolling-text_inner > div {
+      display: flex;
+      align-items: center;
+      flex-shrink: 0; }
+  .scrolling-text__item {
+    padding: 0 5vw; }
+  .scrolling-text.outline-text-true .scrolling-text_inner > div * {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--color-text, var(--color-accent2)); }
+
+@keyframes marquee-left {
+  0% {
+    transform: translateX(0%); }
+  100% {
+    transform: translateX(-100%); } }
+
+@keyframes marquee-right {
+  0% {
+    transform: translateX(-100%); }
+  100% {
+    transform: translateX(0%); } }
+
+@media only screen and (max-width: 620px) {
+  .scrolling-text__item a {
+    font-size: .75em;
+    font-weight: 600;
+  }
+  .scrolling-text_inner {
+    padding: 10px 0;
+  }
+}

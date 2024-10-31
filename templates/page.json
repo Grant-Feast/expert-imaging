@@ -1,0 +1,80 @@
+{
+  "sections": {
+    "template-header": {
+      "type": "template-header",
+      "settings": {
+        "full_width": false,
+        "overlay_opacity": 30,
+        "display_description": true,
+        "bg_image": "shopify:\/\/shop_images\/Website_-_Main_Image.jpg"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "534721f5-1a81-4159-a6e8-a822a1f9bedd": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14875023409233__534721f5-1a81-4159-a6e8-a822a1f9bedd-168867490685038803-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The EIOG trainee course is a bold new innovation. Offering trainees the opportunity to hear from expert UK and European speakers in early pregnancy, gynaecological and obstetric ultrasound with keynote lectures, case studies, interactive sessions and round tables. Trainees will get a grounding in the basics of contemporary ultrasonography, how to manage what they find on scan, and controversies in a unique format with clear learning objectives, pre and post course materials.<\/p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "template--14875023409233__534721f5-1a81-4159-a6e8-a822a1f9bedd-168867490685038803-2"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "423f8dfb-1feb-4809-acfc-527561a20ee9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14875023409233__423f8dfb-1feb-4809-acfc-527561a20ee9-168867490685038803-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Thursday 21st & Friday 22nd March 2024, QEII Conference Centre, Westminster, London.  Chaired byProfessor Tom Bourne, Professor of Obstetrics & Gynaecology, Imperial College London & Professor Christoph Lees, Professor of Obstetrics, Imperial College London.<\/p><p>-<\/p><p><strong>Programmes<\/strong><\/p><p>Thursday 21st  March 2024: <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0567\/9461\/1793\/files\/EIOG_2024_Day_1_-_TRAINEE_Intro_to_Gynae_US.pdf?v=1688674327\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0567\/9461\/1793\/files\/EIOG_2024_Day_1_-_TRAINEE_Intro_to_Gynae_US.pdf?v=1688674327\">Download Programme Here<\/a><\/p><p>Friday 22nd March 2024: <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0567\/9461\/1793\/files\/EIOG_2024_Day_2_-_TRAINEE_Intro_to_Gynae_US.pdf?v=1688674327\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0567\/9461\/1793\/files\/EIOG_2024_Day_2_-_TRAINEE_Intro_to_Gynae_US.pdf?v=1688674327\">Download Programme Here<\/a><\/p><p>*<em><strong>All programmes are subject to change, a final programme with be available shortly<\/strong><\/em><\/p>",
+            "size": "text-size-regular"
+          }
+        },
+        "6325df76-364c-4eb1-89cb-0b714c2fa3db": {
+          "type": "button",
+          "settings": {
+            "link_label": "Register Your Interest",
+            "link": "",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14875023409233__423f8dfb-1feb-4809-acfc-527561a20ee9-168867490685038803-2",
+        "6325df76-364c-4eb1-89cb-0b714c2fa3db"
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "template-header",
+    "main",
+    "534721f5-1a81-4159-a6e8-a822a1f9bedd",
+    "423f8dfb-1feb-4809-acfc-527561a20ee9"
+  ]
+}

@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+}
+
+footer {
+  background-color: #f9f9f9;
+}
+
+.container {
+  text-align: center;
+}
+
+.column-1, .column-2, .column-3, .column-4 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid grey;
+  padding-bottom: 20px;
+}
+
+.footer-logo {
+  height: 140px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.social-link {
+  padding: 0px 5px;
+}
+
+.footer-menu {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.footer-menu li {
+  padding-top: 5px;
+  font-size: 1rem;
+}
+
+.footer-menu li a, .copy a {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.footer-menu li a, .social-link {
+  text-decoration: none;
+}
+
+.social-link {
+  color: #053f79;
+}
+
+.registered-address {
+  line-height: 1.5;
+  padding-top: 30px;
+  font-style: normal;
+}
+
+.registered-address p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.reg-number {
+  padding-top: 30px;
+}
+
+.reg-number p {
+  font-size: 1rem;
+  margin-top: 0;
+}
+
+.contact {
+  font-size: 1rem;
+  font-style: normal;
+}
+
+.contact h4 {
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.contact p {
+  font-size: 1rem;
+}
+
+.copy {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 20px;
+  border-top: 1px solid #103a3a;
+  font-size: 1rem;
+}
+
+.copy p {
+  font-size: 1rem;
+}
+
+.privacy-policy {
+  padding-right: 2rem;
+}
+
+.terms {
+  padding-left: 2rem;
+}
+
+.footer-menu li a:hover, .copy a:hover, .contact a:hover, .socials a:hover {
+  color: #ed462f;
+}
+
+a {
+  transition: all .25s cubic-bezier(.104,.204,.492,1);
+}
+
+@media screen and (min-width: 769px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .column-1 {
+    text-align: center;
+  }
+  .column-1, .column-2, .column-3, .column-4 {
+    width: 100%;
+    border-bottom: none;
+  }
+  .copy {
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .container {
+    grid-template-columns: .8fr 1.2fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+    text-align: left;
+  }
+  .footer-menu, .registered-address, .reg-number, .contact {
+    margin-top: 0;
+    padding-top: 30px;
+    padding-left: 20px;
+  }
+  .footer-menu li, .registered-address p, .reg-number p, .contact, .contact p {
+    font-size: 1.1rem;
+  }
+  .contact h4 {
+    margin-top: 0;
+  }
+  .copy {
+   display: flex;
+   justify-content: space-between;
+   align-items: baseline;
+  }
+  .privacy-policy, .terms, .created {
+    margin-top: 1rem;
+  }
+}

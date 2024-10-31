@@ -1,0 +1,65 @@
+<nav class="full-menu">
+	<ul class="thb-full-menu" role="menubar">
+	  {%- for link in menu.links -%}
+		  {%- assign has_sub_menu = false -%}
+			{%- assign has_mega_menu = false -%}
+		  {%- if link.links.size > 0 -%}
+		    {%- assign has_sub_menu = true -%}
+				{%- for l in link.links -%}
+					{%- if l.links.size > 0 -%}
+						{%- assign has_mega_menu = true -%}
+					{%- endif -%}
+				{%- endfor -%}
+			{%- endif -%}
+		  <li class="{% if has_sub_menu %}menu-item-has-children{% endif %}{% if has_mega_menu %} menu-item-has-megamenu{% endif %}{% if link.active %} active{% endif %}" {% if has_sub_menu %}data-item-title="{{ link.title | escape }}"{% endif %}>
+		    <a href="{{ link.url }}" title="{{ link.title | escape }}"{%- if link.active %} aria-current="page"{% endif -%}>{{- link.title -}}</a>
+		    {%- if has_sub_menu == true and has_mega_menu == false -%}
+			    <ul class="sub-menu" tabindex="-1">
+		        {%- for l in link.links -%}
+							{%- assign has_sub_menu = false -%}
+						  {%- if l.links.size > 0 -%}
+						    {% assign has_sub_menu = true -%}
+							{%- endif -%}
+			        <li class="{%- if l.active %} active{% endif %}" role="none">
+			          <a href="{{ l.url }}" title="{{ l.title | escape }}" role="menuitem">{{- l.title -}}</a>
+								{%- if has_sub_menu -%}
+									<ul class="sub-menu" role="menu">
+										{%- for sub_link in l.links -%}
+											<li class="{%- if sub_link.active %} active{% endif %}" role="none">
+												<a href="{{ sub_link.url }}" title="{{ sub_link.title | escape }}" role="menuitem">{{- sub_link.title -}}</a>
+											</li>
+										{%- endfor -%}
+									</ul>
+								{%- endif -%}
+			        </li>
+						{%- endfor -%}
+			    </ul>
+		    {%- endif -%}
+				{%- if has_sub_menu == true and has_mega_menu == true -%}
+				<div class="sub-menu" tabindex="-1">
+			    <ul class="mega-menu-columns" tabindex="-1">
+		        {%- for l in link.links -%}
+							{%- assign has_sub_menu = false -%}
+						  {%- if l.links.size > 0 -%}
+						    {%- assign has_sub_menu = true -%}
+							{%- endif -%}
+			        <li class="{% if l.active %} active{% endif %}" role="none">
+			          <a href="{{ l.url }}" title="{{ l.title | escape }}" role="menuitem">{{ l.title }}</a>
+								{%- if has_sub_menu -%}
+									<ul role="menu">
+										{%- for sub_link in l.links -%}
+											<li class="{% if sub_link.active %} active{% endif %}" role="none">
+												<a href="{{ sub_link.url }}" title="{{ sub_link.title | escape }}" role="menuitem">{{ sub_link.title }}</a>
+											</li>
+										{%- endfor -%}
+									</ul>
+								{%- endif -%}
+			        </li>
+						{%- endfor -%}
+			    </ul>
+				</div>
+		    {%- endif -%}
+		  </li>
+	  {%- endfor -%}
+	</ul>
+</nav>
