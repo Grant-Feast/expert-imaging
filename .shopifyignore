@@ -1,0 +1,16 @@
+.vscode/*
+cli/*
+src/*
+
+.eslintignore
+.eslintrc.js
+.prettierignore
+.prettierrc.js
+package-lock.json
+package.json
+postcss.config.js
+tailwind.config.js
+vite.config.js
+shopify.theme.toml
+shopify.theme.example.toml
+assets/adastra.manifest.json

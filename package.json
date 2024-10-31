@@ -1,0 +1,11 @@
+{
+  "name": "expert-imaging",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "shopify:dev": "shopify theme dev --store=expert-imaging-in-obstetrics-gynaecology --theme-editor-sync"
+  },
+  "author": "",
+  "license": "ISC"
+}
